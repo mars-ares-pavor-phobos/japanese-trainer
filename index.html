@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="Тренажер Простой Формы: таблицы спряжения, вопросы по темам и пояснения на русском и узбекском.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Тренажер Простой Формы · 普通形</title>
+<link rel="stylesheet" href="style.css?v=5">
+</head>
+<body>
+<a class="skip-link" href="#main-content" data-i18n="skip_link">К Содержанию</a>
+<div class="app">
+  <header>
+    <div class="logo">
+      <div class="logo-icon" lang="ja" aria-hidden="true">形</div>
+      <div class="logo-text">
+        <span class="jp-title" lang="ja"><ruby>普通形<rt>ふつうけい</rt></ruby><span class="title-suffix">トレーナー</span></span>
+        <span class="en-title" data-i18n="app_subtitle">Тренажер Простой Формы</span>
+      </div>
+    </div>
+    <div class="lang-toggle" role="group" data-i18n-label="lang_label">
+      <button class="lang-btn active" data-lang="ru">Рус</button>
+      <button class="lang-btn" data-lang="uz">O‘z</button>
+    </div>
+  </header>
+
+  <nav class="nav" data-i18n-label="nav_label">
+    <button class="nav-btn active" data-nav="theory">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+      <span data-i18n="nav_theory">Теория</span>
+    </button>
+    <button class="nav-btn" data-nav="practice">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+      <span data-i18n="nav_practice">Практика</span>
+    </button>
+    <button class="nav-btn" data-nav="analytics">
+      <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/></svg>
+      <span data-i18n="nav_analytics">Результаты</span>
+    </button>
+  </nav>
+
+  <main id="main-content" tabindex="-1">
+  <p id="storage-notice" class="storage-notice" role="status" style="display:none"></p>
+  <aside id="session-controls" class="session-controls" aria-labelledby="session-heading" style="display:none">
+    <h2 id="session-heading" class="session-heading"></h2>
+    <p id="session-summary"></p>
+    <div class="session-actions">
+      <button type="button" class="theory-action-btn" id="resume-btn" data-action="resume" data-i18n="session_resume">Продолжить</button>
+      <button type="button" class="theory-action-btn" data-action="restart" data-i18n="session_start_over">Начать Заново</button>
+      <button type="button" class="theory-action-btn" data-action="exit" data-i18n="session_exit">Выйти из Тренировки</button>
+    </div>
+    <details class="session-help"><summary data-i18n="session_details">О Тренировке</summary><p data-i18n="session_help">При повторном запуске ответы текущей тренировки удаляются. При выходе сохраняется неполный результат.</p></details>
+  </aside>
+  <section class="screen visible" id="screen-theory" aria-labelledby="theory-title">
+    <div class="page-heading">
+      <h1 id="theory-title" data-i18n="hero_title">Простая Форма</h1>
+      <p class="lesson-intro" data-i18n="lesson_intro">Глаголы, прилагательные и существительные в обычной речи.</p>
+    </div>
+    <div class="lesson-picker">
+      <label for="lesson-select" data-i18n="lesson_label">Урок</label>
+      <select id="lesson-select"></select>
+    </div>
+
+    <div class="theory-group" id="theory-group1">
+      <h3 class="theory-section-heading"><button type="button" class="collapsible-header open" aria-expanded="true" aria-controls="group1-body">
+        <span class="collapsible-heading-copy">
+          <span class="collapsible-title-row">
+            <span data-i18n="th_g1_title">Глаголы I Группы</span>
+          </span>
+        </span>
+        <svg aria-hidden="true" class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button></h3>
+      <div class="collapsible-body open" id="group1-body"></div>
+    </div>
+
+    <div class="theory-group" id="theory-group2">
+      <h3 class="theory-section-heading"><button type="button" class="collapsible-header" aria-expanded="false" aria-controls="group2-body">
+        <span class="collapsible-heading-copy">
+          <span class="collapsible-title-row">
+            <span data-i18n="th_g2_title">Глаголы II Группы</span>
+          </span>
+        </span>
+        <svg aria-hidden="true" class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button></h3>
+      <div class="collapsible-body" id="group2-body"></div>
+    </div>
+
+    <div class="theory-group" id="theory-group3">
+      <h3 class="theory-section-heading"><button type="button" class="collapsible-header" aria-expanded="false" aria-controls="group3-body">
+        <span class="collapsible-heading-copy">
+          <span class="collapsible-title-row">
+            <span data-i18n="th_g3_title">Неправильные Глаголы</span>
+          </span>
+        </span>
+        <svg aria-hidden="true" class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button></h3>
+      <div class="collapsible-body" id="group3-body"></div>
+    </div>
+
+    <div class="theory-group" id="theory-iadj">
+      <h3 class="theory-section-heading"><button type="button" class="collapsible-header" aria-expanded="false" aria-controls="iadj-body">
+        <span class="collapsible-heading-copy">
+          <span class="collapsible-title-row">
+            <span data-i18n="th_iadj_title">い-Прилагательные</span>
+          </span>
+        </span>
+        <svg aria-hidden="true" class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button></h3>
+      <div class="collapsible-body" id="iadj-body"></div>
+    </div>
+
+    <div class="theory-group" id="theory-naadj">
+      <h3 class="theory-section-heading"><button type="button" class="collapsible-header" aria-expanded="false" aria-controls="naadj-body">
+        <span class="collapsible-heading-copy">
+          <span class="collapsible-title-row">
+            <span data-i18n="th_naadj_title">な-Прилагательные</span>
+          </span>
+        </span>
+        <svg aria-hidden="true" class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button></h3>
+      <div class="collapsible-body" id="naadj-body"></div>
+    </div>
+
+    <div class="theory-group" id="theory-noun">
+      <h3 class="theory-section-heading"><button type="button" class="collapsible-header" aria-expanded="false" aria-controls="noun-body">
+        <span class="collapsible-heading-copy">
+          <span class="collapsible-title-row">
+            <span data-i18n="th_noun_title">Существительные</span>
+          </span>
+        </span>
+        <svg aria-hidden="true" class="chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button></h3>
+      <div class="collapsible-body" id="noun-body"></div>
+    </div>
+  </section>
+
+  <section class="screen" id="screen-practice" data-i18n-label="nav_practice">
+    <div id="practice-start" class="start-practice">
+      <h2 class="state-title" data-i18n="practice_ready_title">Выбор Темы</h2>
+      <p data-i18n="practice_desc">Выберите тему. После ответа откроется правило образования формы.</p>
+      <div class="state-meta" id="practice-focus-meta"></div>
+      <div class="settings-panel" role="group" aria-labelledby="topic-label">
+        <div id="topic-label" class="settings-label" data-i18n="filter_label">Тема Тренировки</div>
+        <button class="filter-chip active" data-filter="all" data-i18n="filter_all">Все Темы</button>
+        <button class="filter-chip" data-filter="verb" data-i18n="filter_verb">Глаголы</button>
+        <button class="filter-chip" data-filter="i-adj" data-i18n="filter_iadj">い-Прилагательные</button>
+        <button class="filter-chip" data-filter="na-adj" data-i18n="filter_naadj">な-Прилагательные</button>
+        <button class="filter-chip" data-filter="noun" data-i18n="filter_noun">Существительные</button>
+      </div>
+      <details class="practice-details"><summary data-i18n="session_details">О Тренировке</summary><p class="cycle-note" data-i18n="practice_cycle_note">Вопросы общей тренировки охватывают разные слова. Задания повторяются после завершения цикла выбранной темы. В браузере сохраняется последняя тренировка.</p></details>
+      <button class="start-btn" id="start-btn" data-action="start" data-i18n="practice_start_btn">Начать Практику</button>
+    </div>
+    <div id="practice-active" style="display:none">
+      <div class="practice-header">
+        <span class="practice-counter" id="q-counter">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          1 / 20
+        </span>
+        <span class="pos-badge-practice" id="q-pos-badge"></span>
+        <button type="button" class="text-btn" data-action="lesson" data-i18n="back_lesson">К Уроку</button>
+      </div>
+      <div class="progress-track" id="practice-progress" role="progressbar" aria-valuemin="0" aria-valuenow="0" aria-valuemax="20" data-i18n-label="progress_label"><div class="progress-fill" id="progress-bar" style="width:0%"></div></div>
+      <div class="question-card">
+        <div class="question-label sr-only" id="q-label"></div>
+        <h2 class="question-text" id="q-text" tabindex="-1"></h2>
+        <div id="q-dialogue"></div>
+        <details class="question-details" id="question-details"><summary data-i18n="question_details">Пояснение к Заданию</summary><div class="question-context" id="q-context"></div></details>
+      </div>
+      <div class="options" id="options-container" role="group" aria-labelledby="q-label q-text"></div>
+      <div class="explanation-box" id="explanation-box" tabindex="-1" role="region" aria-labelledby="exp-title" aria-describedby="exp-text">
+        <div class="exp-title" id="exp-title"></div>
+        <div id="exp-text"></div>
+        <button class="next-btn" id="next-btn" tabindex="0" data-action="next" data-i18n="next_btn">Далее</button>
+      </div>
+      <p class="sr-only" id="answer-announcement" role="status" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <section class="screen" id="screen-analytics" data-i18n-label="nav_analytics">
+    <div id="analytics-empty" class="start-practice">
+      <h2 class="state-title" data-i18n="analytics_empty_title">Результаты Тренировок</h2>
+      <p data-i18n="analytics_empty">Результат и разбор ошибок появятся после первых ответов.</p>
+      <div class="state-actions">
+        <button class="theory-action-btn" type="button" data-action="practice" data-i18n="analytics_empty_cta">Начать Практику</button>
+      </div>
+    </div>
+    <div id="analytics-results" style="display:none">
+      <div class="analytics-hero">
+        <div class="score-ring">
+          <svg aria-hidden="true" width="170" height="170" viewBox="0 0 170 170">
+            <circle class="ring-bg" cx="85" cy="85" r="72"/>
+            <circle class="ring-fill" id="score-ring-fill" cx="85" cy="85" r="72" stroke-dasharray="452.39" stroke-dashoffset="452.39"/>
+          </svg>
+          <div class="score-value">
+            <div class="score-num" id="score-percent">0%</div>
+            <div class="score-label" data-i18n="score_label">Верных Ответов</div>
+          </div>
+        </div>
+        <h2 class="analytics-title" id="analytics-title" tabindex="-1" data-i18n="analytics_title">Результат Тренировки</h2>
+        <div class="analytics-subtitle" id="analytics-subtitle"></div>
+        <div class="analytics-meta" id="analytics-session-meta"></div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-val" id="stat-correct">0</div>
+          <div class="stat-lbl" data-i18n="stat_correct">Верно</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val" id="stat-wrong">0</div>
+          <div class="stat-lbl" data-i18n="stat_wrong">Ошибки</div>
+        </div>
+      </div>
+      <div class="breakdown-section">
+        <h4>
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          <span data-i18n="breakdown_title">Результаты по Темам</span>
+        </h4>
+        <div id="breakdown-rows"></div>
+      </div>
+      <div class="mistakes-section" id="mistakes-section" style="display:none">
+        <h4>
+          <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--wrong)" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg>
+          <span data-i18n="mistakes_title">Разбор Ошибок</span>
+        </h4>
+        <div id="mistakes-list"></div>
+      </div>
+      <button class="text-btn" id="results-theory-btn" data-action="lesson" data-i18n="back_lesson">К Уроку</button>
+      <button id="lesson-back-btn" class="theory-action-btn" data-action="lesson-back" data-i18n="lesson_back" style="display:none">Вернуться к Уроку</button>
+      <button class="restart-btn" id="results-restart" data-action="restart" data-i18n="restart_btn">Выбрать Тему</button>
+    </div>
+  </section>
+  </main>
+</div>
+
+<script src="verbs.js"></script>
+<script src="lessons.js"></script>
+<script src="questions.js"></script>
+<script src="core.js"></script>
+<script src="session.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
