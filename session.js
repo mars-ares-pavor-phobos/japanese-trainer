@@ -1,4 +1,4 @@
-// Only IDs cross the storage boundary. Content and scoring always come from the bank.
+// Store IDs and the answer timestamp. Content and scoring always come from the bank.
 const TrainerSession = (() => {
   const KEY = 'plain-form-trainer.session';
   const VERSION = 1;
@@ -21,12 +21,12 @@ const TrainerSession = (() => {
         status:state.status, topic:state.topic, lesson:state.lesson || null, mode:state.mode || 'masu', currentIndex:state.currentIndex,
         questionIds:state.shuffledQuestions.map(q => q.id),
         optionOrders:state.shuffledQuestions.map(q => state.optionOrders.get(q.id).map(o => o.id)),
-        answers:state.answers.map(answer => ({ qId:answer.qId, optionId:answer.selectedOption.id }))
+        answers:state.answers.map(answer => ({ qId:answer.qId, optionId:answer.selectedOption.id, answeredAt:answer.answeredAt }))
       } : null
     });
   }
 
-  function decode(raw, questions, bank, core, {lessons = {}, transformQuestion = q => q, cycleQuestions = questions, compatibleBanks = []} = {}) {
+  function decode(raw, questions, bank, core, {lessons = {}, legacyLessons = {}, transformQuestion = q => q, cycleQuestions = questions, compatibleBanks = [], now = Date.now()} = {}) {
     if (raw === null) return { kind:'empty' };
     try {
       if (typeof raw !== 'string' || raw.length > 100000) throw new Error('Size');
@@ -50,7 +50,8 @@ const TrainerSession = (() => {
         if (selected.some(q => !q || (s.topic !== 'all' && q.partOfSpeech !== s.topic)) || (!s.lesson && !unique(selected.map(core.lexemeKey)))) throw new Error('Topic/lexemes');
         if (s.lesson !== null) {
           if (typeof s.lesson !== 'string' || !Object.hasOwn(lessons,s.lesson) ||
-              JSON.stringify(s.questionIds) !== JSON.stringify(lessons[s.lesson])) throw new Error('Lesson');
+              ![lessons[s.lesson], Object.hasOwn(legacyLessons,s.lesson) ? legacyLessons[s.lesson] : null]
+                .some(ids => Array.isArray(ids) && JSON.stringify(s.questionIds) === JSON.stringify(ids))) throw new Error('Lesson');
         } else if (!cycles.has(s.topic) || cycles.get(s.topic).snapshot().previousId !== s.questionIds.at(-1)) throw new Error('Session cycle');
         const size = selected.length;
         if (!Number.isInteger(s.currentIndex) || s.currentIndex < 0 || s.currentIndex > size || !Array.isArray(s.answers)) throw new Error('Position');
@@ -70,7 +71,11 @@ const TrainerSession = (() => {
           if (!object(answer) || answer.qId !== q.id) throw new Error('Answer question');
           const option = q.options.find(o => o.id === answer.optionId);
           if (!option) throw new Error('Answer option');
-          return { qId:q.id, question:q, selectedOption:option, correct:option.isCorrect === true };
+          if (answer.answeredAt !== undefined && (!Number.isSafeInteger(answer.answeredAt) || answer.answeredAt < 0)) throw new Error('Answer time');
+          // Legacy sessions have no timestamp. Keep their progress and allow a full
+          // reading interval on the restored answer. Clamp future dates after a clock change.
+          const answeredAt = answer.answeredAt === undefined ? now : Math.min(answer.answeredAt, now);
+          return { qId:q.id, question:q, selectedOption:option, correct:option.isCorrect === true, answeredAt };
         });
         state = { active:s.status === 'in-progress', status:s.status, topic:s.topic, lesson:s.lesson, mode:s.mode,
           currentIndex:s.currentIndex, shuffledQuestions:selected, optionOrders, answers, currentOptions:[] };
