@@ -424,7 +424,13 @@ const TrainerVerbs = (() => {
       if(index===3) out.push(step('Для прошедшего отрицания замените ない на なかった.','O‘tgan zamon inkori uchun ない ni なかった ga almashtiring.','ない',result));
       return out;
     }
-    if(v.group===3) return [step(v.rule==='kuru'?'Запомните форму '+v.forms[index].html+'. Обратите внимание на чтение.':'Запомните особую форму III группы.',v.rule==='kuru'?'Shaklni yodlang: '+v.forms[index].html+'. O‘qilishiga e’tibor bering.':'III guruhning maxsus shaklini yodlang.',start,result)];
+    if(v.group===3) {
+      const ending = ['する','しない','した','しなかった'][index];
+      return [step(
+        v.rule==='kuru' ? 'Замените всю форму '+v.masu.html+' на '+v.forms[index].html+'. Чтение: '+start+' → '+result+'.' : 'Замените します на '+ending+'. Часть слова перед します сохраните.',
+        v.rule==='kuru' ? 'Butun '+v.masu.html+' shaklini '+v.forms[index].html+' ga almashtiring. O‘qilishi: '+start+' → '+result+'.' : 'します ni '+ending+' ga almashtiring. します dan oldingi qismni saqlang.',
+        start,result)];
+    }
     const out=[step('Уберите ます.','ます ni olib tashlang.',start,stem)];
     if(v.group===2) out.push(step('Сохраните основу и добавьте '+['る','ない','た','なかった'][index]+'.','Asosni saqlab, '+['る','ない','た','なかった'][index]+' qo‘shing.',stem,result));
     else {
@@ -449,12 +455,17 @@ const TrainerVerbs = (() => {
     return {...spec,verbId:v.id,lexeme:v.forms[0].text,sourceMode:mode,prompt,context,explanation,
       options:spec.options.map(o=>({...o,html:o.isCorrect?v.forms[index].html:o.html}))};
   }
+  // The lexical bank is immutable during a session. Build each four-form set once.
+  const practiceCache = new Map();
   // Four targeted questions intentionally repeat one verb to rehearse each cell.
   function practice(v) {
-    return v.forms.map((_,index)=>question({id:10000+verbs.indexOf(v)*4+index,verbId:v.id,partOfSpeech:'verb',difficulty:'easy',
+    if (practiceCache.has(v.id)) return practiceCache.get(v.id);
+    const questions = v.forms.map((_,index)=>question({id:10000+verbs.indexOf(v)*4+index,verbId:v.id,partOfSpeech:'verb',difficulty:'easy',
       tense:index<2?'present':'past',polarity:index%2?'negative':'affirmative',tags:['lesson'],
       dialogue:[{speaker:'',text:'____'}],
       options:v.forms.map((f,i)=>({id:'lesson-'+v.id+'-'+index+'-'+i,html:f.html,isCorrect:i===index}))}));
+    practiceCache.set(v.id, questions);
+    return questions;
   }
   return {verbs,byId,byLexeme,kanaRows,formLabels,groupLabel,formIndex,steps,question,practice,sources};
 })();
