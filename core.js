@@ -1,4 +1,5 @@
 const TrainerCore = (() => {
+  const ANSWER_DELAY_MS = 5000;
   function shuffle(items, random = Math.random) {
     const result = [...items];
     for (let i = result.length - 1; i > 0; i--) {
@@ -25,6 +26,11 @@ const TrainerCore = (() => {
     const lexicalCounts = countBy(pool, lexemeKey);
     const futureSessions = Math.ceil((pool.length - count) / Math.max(size, 1));
     const mandatory = new Set([...lexicalCounts].filter(([, n]) => n > futureSessions).map(([key]) => key));
+    const candidateLexemes = new Set(candidates.map(lexemeKey));
+    const eligibleMandatory = [...mandatory].filter(key => candidateLexemes.has(key));
+    // These values are stable throughout sampling; avoid recalculating tags and strings
+    // inside every candidate comparison in all 48 balancing attempts.
+    const valuesByQuestion = new Map(candidates.map(q => [q, keys.map(key => key(q))]));
     let best = [], bestCost = Infinity;
 
     for (let attempt = 0; attempt < 48; attempt++) {
@@ -32,15 +38,15 @@ const TrainerCore = (() => {
       const used = new Set(), selected = [];
       const counts = keys.map(() => new Map());
       while (selected.length < count) {
-        const remainingMandatory = [...mandatory].filter(key => !used.has(key) && available.some(q => lexemeKey(q) === key));
-        const mustChoose = remainingMandatory.length >= count - selected.length;
+        const remainingMandatory = eligibleMandatory.reduce((n, key) => n + Number(!used.has(key)), 0);
+        const mustChoose = remainingMandatory >= count - selected.length;
         let winner = null, winnerScore = Infinity;
         for (const q of available) {
           const lexeme = lexemeKey(q);
           if (used.has(lexeme) || (mustChoose && !mandatory.has(lexeme))) continue;
           let score = 0;
-          keys.forEach((key, i) => {
-            const n = counts[i].get(key(q)) || 0;
+          valuesByQuestion.get(q).forEach((value, i) => {
+            const n = counts[i].get(value) || 0;
             const quota = count / totals[i].size;
             score += (i === 2 ? 1 : 8) * (2 * n + 1) / quota;
           });
@@ -51,10 +57,10 @@ const TrainerCore = (() => {
         if (!winner) break;
         selected.push(winner);
         used.add(lexemeKey(winner));
-        keys.forEach((key, i) => counts[i].set(key(winner), (counts[i].get(key(winner)) || 0) + 1));
+        valuesByQuestion.get(winner).forEach((value, i) => counts[i].set(value, (counts[i].get(value) || 0) + 1));
       }
       let cost = (count - selected.length) * 10000;
-      for (const key of mandatory) if (!used.has(key) && candidates.some(q => lexemeKey(q) === key)) cost += 1000;
+      for (const key of eligibleMandatory) if (!used.has(key)) cost += 1000;
       counts.forEach((values, i) => {
         for (const key of totals[i].keys()) cost += (i === 2 ? 1 : 50) * ((values.get(key) || 0) - count / totals[i].size) ** 2;
       });
@@ -78,8 +84,11 @@ const TrainerCore = (() => {
         3 * Number(q.tense === previous.tense) +
         2 * Number(q.partOfSpeech === previous.partOfSpeech) +
         Number(formKey(q) === formKey(previous)));
-      let index = 0;
-      for (let i = 1; i < pending.length; i++) if (score(pending[i]) < score(pending[index])) index = i;
+      let index = 0, bestScore = score(pending[0]);
+      for (let i = 1; i < pending.length; i++) {
+        const candidateScore = score(pending[i]);
+        if (candidateScore < bestScore) { index = i; bestScore = candidateScore; }
+      }
       const question = pending.splice(index, 1)[0];
       ordered.push(question);
       formsUsed.set(formKey(question), (formsUsed.get(formKey(question)) || 0) + 1);
@@ -130,25 +139,31 @@ const TrainerCore = (() => {
     return question.shuffleOptions === false ? [...question.options] : shuffle(question.options, random);
   }
 
-  function recordAnswer(state, questionId, optionId) {
+  function recordAnswer(state, questionId, optionId, now = Date.now()) {
     const question = state.shuffledQuestions[state.currentIndex];
     if (!state.active || !question || question.id !== questionId || state.answers[state.currentIndex]) return null;
     const selectedOption = question.options.find(option => option.id === optionId);
     if (!selectedOption) return null;
-    const answer = { qId: question.id, question, selectedOption, correct: selectedOption.isCorrect === true };
+    const answer = { qId: question.id, question, selectedOption, correct: selectedOption.isCorrect === true, answeredAt:now };
     state.answers[state.currentIndex] = answer;
     return answer;
   }
 
-  function advanceQuestion(state, questionId) {
+  function remainingAnswerDelay(answer, now = Date.now()) {
+    if (!answer || !Number.isFinite(answer.answeredAt)) return ANSWER_DELAY_MS;
+    return Math.min(ANSWER_DELAY_MS, Math.max(0, ANSWER_DELAY_MS - (now - answer.answeredAt)));
+  }
+
+  function advanceQuestion(state, questionId, now = Date.now()) {
     const question = state.shuffledQuestions[state.currentIndex];
     const answer = state.answers[state.currentIndex];
     if (!state.active || !question || (questionId !== undefined && questionId !== question.id) || answer?.qId !== question.id) return false;
+    if (remainingAnswerDelay(answer, now) > 0) return false;
     state.currentIndex++;
     return true;
   }
 
-  return { shuffle, createQuestionCycle, orderOptions, recordAnswer, advanceQuestion, lexemeKey, formKey };
+  return { ANSWER_DELAY_MS, remainingAnswerDelay, shuffle, createQuestionCycle, orderOptions, recordAnswer, advanceQuestion, lexemeKey, formKey };
 })();
 
 if (typeof module !== 'undefined') module.exports = TrainerCore;
