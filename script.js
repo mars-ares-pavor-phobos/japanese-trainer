@@ -19,6 +19,10 @@ function titleCaseLabel(value, lang = currentLang) {
 }
 
 const i18n = {
+  "answer_delay_note": {
+    "ru": "После ответа прочитайте объяснение. Переход далее станет доступен через 5 секунд.",
+    "uz": "Javobdan so‘ng izohni o‘qing. Keyingi savolga 5 soniyadan keyin o‘tishingiz mumkin."
+  },
   "lesson_back": {
     "ru": "Вернуться к Уроку",
     "uz": "Darsga Qaytish"
@@ -47,10 +51,6 @@ const i18n = {
     "ru": "Выбор Темы",
     "uz": "Mavzuni Tanlash"
   },
-  "theory_intro": {
-    "ru": "Простые формы употребляются в разговоре с близкими и в составе сложных предложений. Глагол имеет четыре простые формы: утверждение и отрицание в настоящем/будущем и прошедшем времени. Утвердительная форма настоящего/будущего времени называется словарной: <ruby>食<rt>た</rt></ruby>べる.",
-    "uz": "Oddiy shakllar yaqinlar bilan suhbatda va qo‘shma gap tarkibida qo‘llanadi. Fe’lning to‘rtta oddiy shakli bor: hozirgi/kelasi va o‘tgan zamonning tasdiq hamda inkor shakllari. Hozirgi/kelasi zamonning tasdiq shakli lug‘aviy shakl deb ataladi: <ruby>食<rt>た</rt></ruby>べる."
-  },
   "th_g1_title": {
     "ru": "Глаголы I Группы",
     "uz": "I Guruh Fe’llari"
@@ -60,7 +60,7 @@ const i18n = {
     "uz": "II Guruh Fe’llari"
   },
   "th_g3_title": {
-    "ru": "Неправильные Глаголы",
+    "ru": "Глаголы III Группы",
     "uz": "Noto‘g‘ri Fe’llar"
   },
   "th_iadj_title": {
@@ -74,22 +74,6 @@ const i18n = {
   "th_noun_title": {
     "ru": "Существительные",
     "uz": "Otlar"
-  },
-  "form_pres_aff": {
-    "ru": "Настоящее/Будущее +",
-    "uz": "Hozirgi/Kelasi +"
-  },
-  "form_pres_neg": {
-    "ru": "Настоящее/Будущее −",
-    "uz": "Hozirgi/Kelasi −"
-  },
-  "form_past_aff": {
-    "ru": "Прошедшее +",
-    "uz": "O‘tgan Zamon +"
-  },
-  "form_past_neg": {
-    "ru": "Прошедшее −",
-    "uz": "O‘tgan Zamon −"
   },
   "practice_desc": {
     "ru": "Выберите тему. После ответа откроется правило образования формы.",
@@ -207,30 +191,6 @@ const i18n = {
     "ru": "Существительные",
     "uz": "Otlar"
   },
-  "tip_g1": {
-    "ru": "Уберите ます. В утверждении настоящего/будущего времени последняя кана основы переходит из ряда い в ряд う. В отрицании она переходит в ряд あ, затем добавляется ない. Особый случай: い → わない. Прошедшие формы приведены в таблице. Группу глагола следует запоминать вместе со словом.",
-    "uz": "ます ni olib tashlang. Hozirgi/kelasi zamon tasdiq shaklida asosning oxirgi kanasi い qatoridan う qatoriga o‘tadi. Inkor shaklida u あ qatoriga o‘tadi va ない qo‘shiladi. Alohida holat: い → わない. O‘tgan zamon shakllari jadvalda berilgan. Fe’l guruhini so‘z bilan birga yodlash kerak."
-  },
-  "tip_g2": {
-    "ru": "Замените ます на る, ない, た или なかった. Основа сохраняется. <ruby>見<rt>み</rt></ruby>ます и <ruby>起<rt>お</rt></ruby>きます также относятся ко II группе. По одному лишь звучанию -imasu определить группу нельзя.",
-    "uz": "ます o‘rniga る, ない, た yoki なかった qo‘shing. Asos o‘zgarmaydi. <ruby>見<rt>み</rt></ruby>ます va <ruby>起<rt>お</rt></ruby>きます ham II guruhga kiradi. Fe’l guruhini faqat -imasu talaffuziga qarab aniqlab bo‘lmaydi."
-  },
-  "tip_g3": {
-    "ru": "Формы III группы следует запомнить: します → する / しない / した / しなかった; <ruby>来<rt>き</rt></ruby>ます → <ruby>来<rt>く</rt></ruby>る / <ruby>来<rt>こ</rt></ruby>ない / <ruby>来<rt>き</rt></ruby>た / <ruby>来<rt>こ</rt></ruby>なかった. Сложные глаголы на します, например <ruby>勉強<rt>べんきょう</rt></ruby>します, изменяются так же, как します. Не путайте <ruby>来<rt>き</rt></ruby>ます и <ruby>着<rt>き</rt></ruby>ます: это разные глаголы.",
-    "uz": "III guruh shakllarini yodlang: します → する / しない / した / しなかった; <ruby>来<rt>き</rt></ruby>ます → <ruby>来<rt>く</rt></ruby>る / <ruby>来<rt>こ</rt></ruby>ない / <ruby>来<rt>き</rt></ruby>た / <ruby>来<rt>こ</rt></ruby>なかった. します bilan tugaydigan qo‘shma fe’llar, masalan <ruby>勉強<rt>べんきょう</rt></ruby>します, します kabi o‘zgaradi. <ruby>来<rt>き</rt></ruby>ます va <ruby>着<rt>き</rt></ruby>ます ni farqlang: bular boshqa-boshqa fe’llar."
-  },
-  "tip_iadj": {
-    "ru": "В отрицательной и прошедших формах い-прилагательных конечное い заменяется на くない, かった или くなかった. Исключение: いい → よくない / よかった / よくなかった.",
-    "uz": "い-sifatlarning inkor va o‘tgan zamon shakllarida oxirgi い o‘rniga くない, かった yoki くなかった qo‘shiladi. Istisno: いい → よくない / よかった / よくなかった."
-  },
-  "tip_naadj": {
-    "ru": "な-прилагательные образуют простые формы с помощью связки: だ / じゃない / だった / じゃなかった. Те же формы связки употребляются с существительными.",
-    "uz": "な-sifatlarning oddiy shakllari だ / じゃない / だった / じゃなかった bog‘lamalari yordamida yasaladi. Otlar bilan ham shu bog‘lama shakllari qo‘llanadi."
-  },
-  "tip_noun": {
-    "ru": "К существительному присоединяется связка: だ / じゃない / だった / じゃなかった. Само существительное не изменяется.",
-    "uz": "Otga だ / じゃない / だった / じゃなかった bog‘lamasi qo‘shiladi. Otning o‘zi o‘zgarmaydi."
-  },
   "hero_title": {
     "ru": "Простая Форма",
     "uz": "Oddiy Shakl"
@@ -258,10 +218,6 @@ const i18n = {
   "progress_label": {
     "ru": "Число Ответов",
     "uz": "Berilgan Javoblar Soni"
-  },
-  "table_term": {
-    "ru": "Слово",
-    "uz": "So‘z"
   },
   "lesson_intro": {
     "ru": "Глаголы, прилагательные и существительные в обычной речи.",
@@ -356,7 +312,7 @@ const posNames = {
   }
 };
 
-const lessonQuestionIds = {group1:[2], group2:[12,20], group3:[5], iadj:[26,29,34], naadj:[37,42,46], noun:[91,52,49]};
+const lessonQuestionIds = {group1:[2], group2:[12,20], group3:[5], iadj:[31,28,26,25], naadj:[35,36,37,38], noun:[47,48,49,50]};
 let selectedLesson = 'group1';
 
 const theorySections = [
@@ -368,10 +324,9 @@ const theorySections = [
   {id:'theory-noun', titleKey:'th_noun_title'}
 ];
 
-const uiState = { analyticsRingTimer:null, analyticsBarsTimer:null, analyticsRevision:0 };
+const uiState = { analyticsRingTimer:null, analyticsBarsTimer:null, analyticsRevision:0, answerTimer:null };
+const renderedLessons = new Map();
 const SCORE_RING_CIRCUMFERENCE = 2 * Math.PI * 72;
-const THEORY_FORM_LABEL_KEYS = ['form_pres_aff','form_pres_neg','form_past_aff','form_past_neg'];
-const TIP_ICON = '<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>';
 
 function t(key){ return i18n[key]?.[currentLang] || key; }
 
@@ -382,10 +337,6 @@ function copyForLang(ru, uz){
 function prefersReducedMotion(){
   return typeof window.matchMedia === 'function'
     && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-}
-
-function motionBehavior(){
-  return prefersReducedMotion() ? 'auto' : 'smooth';
 }
 
 function scrollAppToTop(){
@@ -405,16 +356,6 @@ function pluralRu(count, one, few, many){
   return many;
 }
 
-function setTheorySectionOpen(target, open){
-  const group = target?.classList?.contains('theory-group') ? target : target?.closest('.theory-group');
-  if(!group) return;
-  const header = group.querySelector('.collapsible-header');
-  const body = group.querySelector('.collapsible-body');
-  header.classList.toggle('open', open);
-  header.setAttribute('aria-expanded', open ? 'true' : 'false');
-  body.classList.toggle('open', open);
-}
-
 function renderTheoryMap(){
   document.getElementById('lesson-select').innerHTML = theorySections.map((section, index) =>
     `<option value="${section.id.replace('theory-', '')}">${index + 1} / ${theorySections.length} · ${t(section.titleKey)}</option>`
@@ -422,14 +363,23 @@ function renderTheoryMap(){
   document.getElementById('lesson-select').value = selectedLesson;
 }
 
-function selectLesson(lesson){
+function selectLesson(lesson, { scroll = false } = {}){
   if (!lessonQuestionIds[lesson]) return;
   selectedLesson = lesson;
   document.querySelectorAll('.theory-group').forEach(group => {
     group.hidden = group.id !== 'theory-' + lesson;
-    setTheorySectionOpen(group, !group.hidden);
   });
+  buildTheoryTables();
   document.getElementById('lesson-select').value = lesson;
+  updateLessonActions();
+  if (scroll) focusLessonStart();
+}
+
+function focusLessonStart() {
+  const region = document.getElementById('theory-' + selectedLesson);
+  const heading = region.querySelector('.theory-section-heading');
+  heading.focus({preventScroll:true});
+  region.scrollIntoView({block:'start', behavior:'instant'});
 }
 
 function updateLessonActions(){
@@ -505,6 +455,8 @@ function resetAnalyticsView(){
 function keepJapaneseWords(scope) {
   const prose = '.lesson-rule p, .reference-intro, .reference-legend, .tip-box > span, .verb-note, .verb-steps li > span, .question-context, .exp-note > div, .mk-note';
   scope.querySelectorAll(prose).forEach(element => {
+    if (element.dataset.japaneseWrapped === 'true') return;
+    element.dataset.japaneseWrapped = 'true';
     const fragment = document.createDocumentFragment();
     let word = null;
     const appendJapanese = node => {
@@ -539,6 +491,7 @@ function markJapaneseContent(scope = document){
 
 function setLang(lang){
   if (!['ru', 'uz'].includes(lang)) return;
+  if (!initializingSession && currentLang === lang) return;
   currentLang = lang;
   document.documentElement.lang = lang;
   document.title = t('document_title');
@@ -549,12 +502,14 @@ function setLang(lang){
   });
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const k = el.getAttribute('data-i18n');
-    if(i18n[k]) el.innerHTML = i18n[k][lang];
+    if(i18n[k]) {
+      const isLabel = el.matches('button, summary, label, h1, h2, h3, h4, .settings-label, .score-label, .stat-lbl, .en-title, .skip-link') || el.closest('.nav-btn, .theory-section-heading, h4');
+      el.innerHTML = isLabel ? titleCaseLabel(i18n[k][lang]) : i18n[k][lang];
+    }
   });
   document.querySelectorAll('[data-i18n-label]').forEach(el => {
     el.setAttribute('aria-label', t(el.dataset.i18nLabel));
   });
-  buildTheoryTables();
   renderTheoryMap();
   selectLesson(selectedLesson);
   updateLessonActions();
@@ -580,6 +535,8 @@ function showScreen(name){
     b.setAttribute('aria-pressed', isActive ? 'true' : 'false');
   });
   target.classList.add('visible');
+  clearAnswerTimer();
+  if (name === 'practice' && getRecordedAnswer()) updateNextButton();
   updateLessonActions();
   if (name !== 'analytics') clearAnalyticsTimers();
   else renderAnalytics();
@@ -587,123 +544,14 @@ function showScreen(name){
   scrollAppToTop();
 }
 
-function toggleSection(header){
-  setTheorySectionOpen(header, !header.classList.contains('open'));
-}
-
-function renderProgressiveVerbLesson(group, renderTipBox) {
-  const copy = copyForLang;
-  const id = ['kaku', 'taberu', 'suru'][group - 1];
-  const v = TrainerVerbs.byId[id];
-  const rules = [
-    copy('У I группы きます обычно меняется на いた. Исключение: <ruby>行<rt>い</rt></ruby>きます → <ruby>行<rt>い</rt></ruby>った.', 'I guruhda きます odatda いた ga almashadi. Istisno: <ruby>行<rt>い</rt></ruby>きます → <ruby>行<rt>い</rt></ruby>った.'),
-    copy('Прошедшее время: у II группы уберите ます и добавьте た.', 'O‘tgan zamon: II guruhda ます ni olib, た qo‘shing.'),
-    copy('Запомните особую прошедшую форму: します → した.', 'Maxsus o‘tgan zamon shaklini eslab qoling: します → した.')
-  ];
-  const sentences = [
-    ['ノートに<ruby>書<rt>か</rt></ruby>いた。',copy('Записал(а) в тетрадь.','Daftarga yozdi.')],
-    ['パンを<ruby>食<rt>た</rt></ruby>べた。',copy('Съел(а) хлеб.','Non yedi.')],
-    ['<ruby>勉強<rt>べんきょう</rt></ruby>した。',copy('Позанимался / позанималась.','Dars qildi.')]
-  ];
-  return `<div class="lesson-core">
-    <div class="lesson-rule"><p class="step-label">${copy('Правило','Qoida')}</p><p>${rules[group-1]}</p></div>
-    <div class="worked-example"><p class="step-label">${copy('Например','Masalan')}</p>
-      <div class="word-change"><span class="jp">${v.masu.html}</span><span aria-hidden="true">→</span><strong class="jp">${v.forms[2].html}</strong></div>
-      <p class="example-meaning">${v.meaning[currentLang]} · ${TrainerVerbs.groupLabel(v,currentLang)}</p>
-      <p class="example-sentence jp">${sentences[group-1][0]}</p><p class="example-translation">${sentences[group-1][1]}</p>
-    </div></div>
-    <button type="button" class="lesson-practice start-btn" data-quick-lesson="${id}">${copy('Практика: 4 Формы','To‘rtta Shakl Mashqi')}</button>
-    <p class="reference-legend">${copy('Словарная форма, например <ruby>書<rt>か</rt></ruby>く, выражает утверждение в настоящем или будущем. Это одна из четырёх простых форм.','Lug‘aviy shakl, masalan <ruby>書<rt>か</rt></ruby>く, hozirgi yoki kelasi zamondagi tasdiqni bildiradi. U to‘rtta oddiy shakldan biri.')}</p>
-    <details class="lesson-details" id="group${group}-examples"><summary>${copy('Ещё Примеры · 4 Формы','Yana Misollar · 4 Shakl')}</summary>${VerbLessons.group(group)}</details>
-    <details class="lesson-details" id="group${group}-reference"><summary>${copy('Правила и Исключения','Qoidalar va Istisnolar')}</summary><p class="reference-intro">${t('theory_intro')}</p>${renderTipBox('tip_g'+group)}${group===1?VerbLessons.kanaTable():''}</details>`;
-}
-
 function buildTheoryTables(){
-  const openedMore = [...document.querySelectorAll('.more-verbs[open]')].map(el => el.dataset.moreGroup);
-  const openDetails = new Set([...document.querySelectorAll('#screen-theory details[open]')].map(el => el.id));
-  const describe = copyForLang;
-  const formLabels = THEORY_FORM_LABEL_KEYS.map(t);
-  const renderTipBox = key => `<div class="tip-box">${TIP_ICON}<span>${t(key)}</span></div>`;
-  const renderTermCell = ({ term, meaning }) => `<th scope="row" class="term"><span class="jp">${term}</span><div class="note">${meaning}</div></th>`;
-  const renderFormTable = rows => `
-    <div class="table-scroll" tabindex="0" role="region" aria-label="${copyForLang('Таблица Форм', 'Shakllar Jadvali')}">
-      <table class="form-table">
-        <thead>
-          <tr>
-            <th scope="col">${t('table_term')}</th>
-            ${formLabels.map(label => `<th scope="col">${label}</th>`).join('')}
-          </tr>
-        </thead>
-        <tbody>
-          ${rows.map(row => `
-            <tr${row.highlight ? ' class="is-accent-row"' : ''}>
-              ${renderTermCell(row)}
-              ${row.forms.map((form, index) => `<td data-label="${formLabels[index]}"><span class="jp">${form}</span></td>`).join('')}
-            </tr>
-          `).join('')}
-        </tbody>
-      </table>
-    </div>
-  `;
-  const mountTheorySection = (bodyId, html) => {
-    const target = document.getElementById(bodyId);
-    if(target) target.innerHTML = html;
-  };
-
-  const iAdjRows = [
-    { term:'<ruby>高<rt>たか</rt></ruby>い', meaning:describe('дорогой','qimmat'), forms:['<ruby>高<rt>たか</rt></ruby>い','<ruby>高<rt>たか</rt></ruby>くない','<ruby>高<rt>たか</rt></ruby>かった','<ruby>高<rt>たか</rt></ruby>くなかった'] },
-    { term:'<ruby>面白<rt>おもしろ</rt></ruby>い', meaning:describe('интересный','qiziq'), forms:['<ruby>面白<rt>おもしろ</rt></ruby>い','<ruby>面白<rt>おもしろ</rt></ruby>くない','<ruby>面白<rt>おもしろ</rt></ruby>かった','<ruby>面白<rt>おもしろ</rt></ruby>くなかった'] },
-    { term:'いい', meaning:describe('хороший','yaxshi'), forms:['いい','よくない','よかった','よくなかった'], highlight:true }
-  ];
-  const naAdjRows = [
-    { term:'<ruby>静<rt>しず</rt></ruby>か', meaning:describe('тихий','sokin'), forms:['<ruby>静<rt>しず</rt></ruby>かだ','<ruby>静<rt>しず</rt></ruby>かじゃない','<ruby>静<rt>しず</rt></ruby>かだった','<ruby>静<rt>しず</rt></ruby>かじゃなかった'] },
-    { term:'<ruby>元気<rt>げんき</rt></ruby>', meaning:describe('в порядке','tetik'), forms:['<ruby>元気<rt>げんき</rt></ruby>だ','<ruby>元気<rt>げんき</rt></ruby>じゃない','<ruby>元気<rt>げんき</rt></ruby>だった','<ruby>元気<rt>げんき</rt></ruby>じゃなかった'] },
-    { term:'<ruby>好<rt>す</rt></ruby>き', meaning:describe('нравится','yoqadi'), forms:['<ruby>好<rt>す</rt></ruby>きだ','<ruby>好<rt>す</rt></ruby>きじゃない','<ruby>好<rt>す</rt></ruby>きだった','<ruby>好<rt>す</rt></ruby>きじゃなかった'] }
-  ];
-  const nounRows = [
-    { term:'<ruby>学生<rt>がくせい</rt></ruby>', meaning:describe('студент','talaba'), forms:['<ruby>学生<rt>がくせい</rt></ruby>だ','<ruby>学生<rt>がくせい</rt></ruby>じゃない','<ruby>学生<rt>がくせい</rt></ruby>だった','<ruby>学生<rt>がくせい</rt></ruby>じゃなかった'] },
-    { term:'<ruby>雨<rt>あめ</rt></ruby>', meaning:describe('дождь','yomg‘ir'), forms:['<ruby>雨<rt>あめ</rt></ruby>だ','<ruby>雨<rt>あめ</rt></ruby>じゃない','<ruby>雨<rt>あめ</rt></ruby>だった','<ruby>雨<rt>あめ</rt></ruby>じゃなかった'] }
-  ];
-
-  const lessons = [
-    {id:'iadj', items:iAdjRows, tip:'tip_iadj',
-      rule:describe('Прошедшее время: замените конечное い на かった. У いい особая форма: よかった.','O‘tgan zamon: oxirgi い ni かった ga almashtiring. いい ning maxsus shakli: よかった.'),
-      before:iAdjRows[0].term, after:iAdjRows[0].forms[2], meaning:describe('дорогой → был дорогим','qimmat → qimmat edi'),
-      sentence:'このパンは<ruby>高<rt>たか</rt></ruby>かった。', translation:describe('Этот хлеб был дорогим.','Bu non qimmat edi.')},
-    {id:'naadj', items:naAdjRows, tip:'tip_naadj',
-      rule:describe('Прошедшее время: после な-прилагательного замените связку だ на だった.','O‘tgan zamon: な-sifatdan keyingi だ bog‘lamasini だった ga almashtiring.'),
-      before:naAdjRows[0].forms[0], after:naAdjRows[0].forms[2], meaning:describe('тихо → было тихо','sokin → sokin edi'),
-      sentence:'<ruby>部屋<rt>へや</rt></ruby>は<ruby>静<rt>しず</rt></ruby>かだった。', translation:describe('В комнате было тихо.','Xona sokin edi.')},
-    {id:'noun', items:nounRows, tip:'tip_noun',
-      rule:describe('Прошедшее время: после существительного замените связку だ на だった. Само слово не меняется.','O‘tgan zamon: otdan keyingi だ ni だった ga almashtiring. Ot o‘zgarmaydi.'),
-      before:nounRows[0].forms[0], after:nounRows[0].forms[2], meaning:describe('студент → был(а) студентом','talaba → talaba edi'),
-      sentence:'<ruby>去年<rt>きょねん</rt></ruby>は<ruby>学生<rt>がくせい</rt></ruby>だった。', translation:describe('В прошлом году я был(а) студентом.','O‘tgan yili talaba edim.')}
-  ];
-  [1,2,3].forEach(group => mountTheorySection('group'+group+'-body', renderProgressiveVerbLesson(group, renderTipBox)));
-  lessons.forEach(lesson => {
-      mountTheorySection(lesson.id + '-body', `
-      <div class="lesson-core">
-        <div class="lesson-rule"><p class="step-label">${describe('Правило','Qoida')}</p><p>${lesson.rule}</p></div>
-        <div class="worked-example"><p class="step-label">${describe('Например','Masalan')}</p>
-          <div class="word-change"><span class="jp">${lesson.before}</span><span aria-hidden="true">→</span><strong class="jp">${lesson.after}</strong></div>
-          <p class="example-meaning">${lesson.meaning}</p>
-          <p class="example-sentence jp">${lesson.sentence}</p><p class="example-translation">${lesson.translation}</p>
-        </div>
-      </div>
-      <button type="button" class="lesson-practice start-btn" data-lesson-practice="${lesson.id}"></button>
-      <details class="lesson-details" id="${lesson.id}-examples"><summary>${describe('Ещё Примеры · 4 Формы','Yana Misollar · 4 Shakl')}</summary>${renderFormTable(lesson.items)}</details>
-      <details class="lesson-details" id="${lesson.id}-reference"><summary>${describe('Правила и Исключения','Qoidalar va Istisnolar')}</summary>
-        <p class="reference-intro">${t('theory_intro')}</p>
-        <p class="reference-legend">${describe('+ утверждение, − отрицание.','+ tasdiq, − inkor.')}</p>
-        ${renderTipBox(lesson.tip)}
-        ${renderFormTable(lesson.items)}
-      </details>`);
-  });
-  openDetails.forEach(id => { const el = document.getElementById(id); if(el) el.open = true; });
-
-  openedMore.forEach(group => document.querySelector(`[data-more-group="${group}"]`)?.setAttribute('open',''));
+  const body = document.getElementById(selectedLesson + '-body');
+  if (renderedLessons.get(selectedLesson) !== currentLang) {
+    body.innerHTML = VerbLessons.render(selectedLesson);
+    renderedLessons.set(selectedLesson, currentLang);
+    markJapaneseContent(body);
+  }
   VerbLessons.syncPracticeButtons();
-  markJapaneseContent(document.getElementById('screen-theory'));
 }
 
 const SESSION_SIZE = 20;
@@ -776,13 +624,15 @@ const practiceState = {
 };
 
 const recoveryQuestions = [...allQuestions, ...TrainerVerbs.verbs.flatMap(TrainerVerbs.practice)];
-const recoveryLessons = {...lessonQuestionIds, ...Object.fromEntries(TrainerVerbs.verbs.map(v => [v.id, TrainerVerbs.practice(v).map(q => q.id)]))};
+const recoveryQuestionById = new Map(recoveryQuestions.map(q => [q.id, q]));
+const recoveryLessons = {...lessonQuestionIds, ...Object.fromEntries(TrainerVerbs.verbs.map(v => [v.id, recoveryQuestions.filter(q => q.verbId === v.id && q.tags.includes('lesson')).map(q => q.id)]))};
 const sessionBankVersion = TrainerSession.bankVersion(recoveryQuestions);
 const recoveryCatalog = {
   lessons:recoveryLessons, cycleQuestions:allQuestions,
+  legacyLessons:{iadj:[26,29,34], naadj:[37,42,46], noun:[91,52,49]},
   // This copy update keeps the same question IDs, answers and option IDs.
-  compatibleBanks:['440-920ae5ed', '440-43d9a45', '440-fd4dad5d', '440-ae8dcf1d'],
-  transformQuestion:(q,mode) => q.verbId ? TrainerVerbs.question(q,mode) : q
+  compatibleBanks:['440-920ae5ed', '440-43d9a45', '440-fd4dad5d', '440-ae8dcf1d', '440-2d47f139'],
+  transformQuestion:q => q.verbId ? TrainerVerbs.question(q,'masu') : q
 };
 const sessionStore = TrainerSession.createStore(() => window.localStorage);
 let recoveryPending = false;
@@ -830,7 +680,7 @@ function restoreSession() {
     activeFilter = restored.topic;
     for (const [topic,cycle] of restored.cycles) questionCycles.set(topic,cycle);
     if (restored.state) {
-      Object.assign(practiceState,restored.state);
+      Object.assign(practiceState,restored.state, {mode: 'masu'});
       lessonVerbId = TrainerVerbs.byId[practiceState.lesson] ? practiceState.lesson : null;
       if (lessonVerbId) selectedLesson = 'group' + TrainerVerbs.byId[lessonVerbId].group;
       else if (practiceState.lesson) selectedLesson = practiceState.lesson;
@@ -875,6 +725,34 @@ function getOptionOrder(question){
   return practiceState.optionOrders.get(question.id);
 }
 
+function clearAnswerTimer() {
+  if (uiState.answerTimer !== null) {
+    clearTimeout(uiState.answerTimer);
+    uiState.answerTimer = null;
+  }
+}
+
+function updateNextButton() {
+  clearAnswerTimer();
+  const answer = getRecordedAnswer();
+  const button = document.getElementById('next-btn');
+  if (!answer || !practiceState.active) return;
+  const remaining = TrainerCore.remainingAnswerDelay(answer);
+  const ready = remaining === 0;
+  button.disabled = !ready;
+  const label = t(practiceState.currentIndex === practiceState.shuffledQuestions.length - 1 ? 'finish_btn' : 'next_btn');
+  const text = ready ? label : copyForLang(`${label} через ${Math.ceil(remaining / 1000)} с`, `${label}: ${Math.ceil(remaining / 1000)} Soniya`);
+  if (button.textContent !== text) button.textContent = text;
+  if (!ready && !document.hidden && document.getElementById('screen-practice').classList.contains('visible')) {
+    uiState.answerTimer = setTimeout(updateNextButton, Math.min(100, remaining));
+  }
+}
+
+document.addEventListener('visibilitychange', () => {
+  if (document.hidden) clearAnswerTimer();
+  else updateNextButton();
+});
+
 function renderFeedbackState(question, isCorrect){
   const expBox = document.getElementById('explanation-box');
   const expTitle = document.getElementById('exp-title');
@@ -892,8 +770,8 @@ function renderFeedbackState(question, isCorrect){
   markJapaneseContent(expBox);
 
   const nextBtn = document.getElementById('next-btn');
-  nextBtn.disabled = false;
   nextBtn.classList.add('show');
+  updateNextButton();
 
 }
 
@@ -954,7 +832,7 @@ function toggleFilter(filter){
 function startPractice(lesson = null) {
   if (practiceState.active) { resumeSession(); return; }
   if (lesson && !Object.hasOwn(recoveryLessons,lesson)) return;
-  const sessionQuestions = lesson ? recoveryLessons[lesson].map(id => recoveryQuestions.find(q => q.id === id)) : buildSessionQuestions();
+  const sessionQuestions = lesson ? recoveryLessons[lesson].map(id => { const q = recoveryQuestionById.get(id); return q.verbId ? TrainerVerbs.question(q) : q; }) : buildSessionQuestions();
   if (!sessionQuestions.length) {
     document.getElementById('practice-focus-meta').textContent = t('practice_empty');
     return;
@@ -998,6 +876,7 @@ function updateProgress() {
 }
 
 function renderQuestion(){
+  clearAnswerTimer();
   const focusedOption = document.activeElement?.dataset.optionId;
   const idx = practiceState.currentIndex;
   const total = practiceState.shuffledQuestions.length;
@@ -1032,6 +911,7 @@ function renderQuestion(){
 
   document.getElementById('q-text').innerHTML = q.prompt[currentLang];
   document.getElementById('q-context').innerHTML = q.context[currentLang];
+  delete document.getElementById('q-context').dataset.japaneseWrapped;
 
   const container = document.getElementById('options-container');
   const questionOptions = getOptionOrder(q);
@@ -1073,7 +953,7 @@ function renderQuestion(){
   }
 }
 
-function selectOption(questionId, optionId, keyboard = false) {
+function selectOption(questionId, optionId) {
   if (recoveryPending || !document.getElementById('screen-practice').classList.contains('visible')) return;
   const answer = TrainerCore.recordAnswer(practiceState, questionId, optionId);
   if (!answer) return;
@@ -1083,12 +963,13 @@ function selectOption(questionId, optionId, keyboard = false) {
   document.getElementById('answer-announcement').textContent = t(answer.correct ? 'exp_correct' : 'exp_wrong') + '. ' + t('fb_answer') + ': ' + findCorrectOption(answer.question).html.replace(/<rt>[^<]*<\/rt>/g, '').replace(/<[^>]+>/g, '');
   const feedback = document.getElementById('explanation-box');
   feedback.focus({preventScroll:true});
-  if (keyboard) feedback.scrollIntoView({block:'nearest', behavior:'instant'});
+  feedback.scrollIntoView({block:'nearest', behavior:'instant'});
 }
 
 function nextQuestion(questionId = Number(document.getElementById('next-btn').dataset.questionId)) {
   if (recoveryPending || !document.getElementById('screen-practice').classList.contains('visible')) return;
   if (!TrainerCore.advanceQuestion(practiceState, questionId)) return;
+  clearAnswerTimer();
   document.getElementById('next-btn').disabled = true;
   renderQuestion();
   saveSession();
@@ -1219,15 +1100,20 @@ function restartAll(){
 function returnToLesson() {
   const v = TrainerVerbs.byId[lessonVerbId];
   if (!v) return;
-  showScreen('theory');
   selectLesson('group'+v.group);
-  const card = document.getElementById('lesson-'+v.id);
-  setTheorySectionOpen(card.closest('.theory-group'),true);
-  for(let parent=card.parentElement;parent;parent=parent.parentElement) {
-    if(parent.tagName === 'DETAILS') parent.open = true;
+  showScreen('theory');
+  // A saved drill may refer to a word beyond the compact examples in the lesson.
+  let card = document.getElementById('lesson-'+v.id);
+  if (!card) {
+    const body = document.getElementById('group'+v.group+'-body');
+    body.insertAdjacentHTML('beforeend', VerbLessons.card(v));
+    card = document.getElementById('lesson-'+v.id);
+    markJapaneseContent(card);
+    VerbLessons.syncPracticeButtons();
   }
-  card.scrollIntoView({behavior:motionBehavior(),block:'start'});
-  card.querySelector('[data-lesson-practice]').focus({preventScroll:true});
+  card.setAttribute('tabindex', '-1');
+  card.focus({preventScroll:true});
+  card.scrollIntoView({behavior:'instant',block:'start'});
 }
 
 function openRelatedLesson() {
@@ -1265,18 +1151,16 @@ document.addEventListener('click', event => {
   if (event.detail > 1 && button === lastActivatedButton) return;
   lastActivatedButton = button;
 
-  const {lang, nav, explainForm, verb, lessonPractice, quickLesson, filter, optionId, questionId, action} = button.dataset;
+  const {lang, nav, lessonPractice, quickLesson, filter, optionId, questionId, action} = button.dataset;
   if (lang) return setLang(lang);
   if (nav) return showScreen(nav);
-  if (explainForm !== undefined) return VerbLessons.select(verb, Number(explainForm));
   if (lessonPractice || quickLesson) return startPractice(lessonPractice || quickLesson);
   if (filter) return toggleFilter(filter);
-  if (button.classList.contains('collapsible-header')) return toggleSection(button);
-  if (optionId) return selectOption(Number(questionId), optionId, event.detail === 0);
+  if (optionId) return selectOption(Number(questionId), optionId);
   actionHandlers[action]?.(button);
 });
 
-document.getElementById('lesson-select').addEventListener('change', event => selectLesson(event.target.value));
+document.getElementById('lesson-select').addEventListener('change', event => selectLesson(event.target.value, {scroll:true}));
 restoreSession();
 setLang(currentLang);
 document.querySelectorAll('.filter-chip').forEach(btn => {
@@ -1289,4 +1173,3 @@ else if (practiceState.shuffledQuestions.length) showScreen('analytics');
 initializingSession = false;
 renderSessionControls();
 document.querySelectorAll('.nav-btn').forEach(btn => btn.setAttribute('aria-pressed', btn.classList.contains('active') ? 'true' : 'false'));
-
