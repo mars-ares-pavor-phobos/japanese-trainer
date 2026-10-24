@@ -5,7 +5,7 @@
   "description": "Japanese plain-form practice in Russian and Uzbek",
   "scripts": {
     "test": "node --test tests/*.test.cjs",
-    "test:ui": "node tests/browser.cjs && node tests/browser-session.cjs && node tests/browser-reopen.cjs && node tests/browser-lessons.cjs && node tests/browser-typography.cjs && node tests/browser-furigana.cjs && node tests/browser-titlecase.cjs"
+    "test:ui": "node tests/browser.cjs"
   },
   "devDependencies": {
     "playwright": "1.63.0"
