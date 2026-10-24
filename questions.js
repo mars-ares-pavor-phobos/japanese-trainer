@@ -1012,12 +1012,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>面白<rt>おもしろ</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>面白<rt>おもしろ</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>面白<rt>おもしろ</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>面白<rt>おもしろ</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, утверждение",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -1042,8 +1042,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "В утвердительной форме настоящего/будущего времени い-прилагательное сохраняет словарную форму. だ не добавляется.",
-      "uz": "Hozirgi/kelasi tasdiqda i-sifat lug‘aviy shaklda qoladi. だ qo‘shilmaydi."
+      "ru": "<ruby>面白<rt>おもしろ</rt></ruby>いです → <ruby>面白<rt>おもしろ</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>面白<rt>おもしろ</rt></ruby>いです → <ruby>面白<rt>おもしろ</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     },
     "lexeme": "面白い",
     "tense": "present",
@@ -1068,12 +1068,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>忙<rt>いそが</rt></ruby>しい → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>忙<rt>いそが</rt></ruby>しい → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>忙<rt>いそが</rt></ruby>しいです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>忙<rt>いそが</rt></ruby>しいです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, отрицание",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -1098,8 +1098,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на くない.",
-      "uz": "I-sifatda oxirgi い o‘rniga くない keladi."
+      "ru": "<ruby>忙<rt>いそが</rt></ruby>しいです → <ruby>忙<rt>いそが</rt></ruby>しくない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>忙<rt>いそが</rt></ruby>しいです → <ruby>忙<rt>いそが</rt></ruby>しくない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "忙しい",
     "tense": "present",
@@ -1124,12 +1124,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>楽<rt>たの</rt></ruby>しい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>楽<rt>たの</rt></ruby>しい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>楽<rt>たの</rt></ruby>しいです → Прошедшее · Отрицание",
+      "uz": "<ruby>楽<rt>たの</rt></ruby>しいです → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -1154,8 +1154,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на くなかった.",
-      "uz": "I-sifatda oxirgi い o‘rniga くなかった keladi."
+      "ru": "<ruby>楽<rt>たの</rt></ruby>しいです → <ruby>楽<rt>たの</rt></ruby>しくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>楽<rt>たの</rt></ruby>しいです → <ruby>楽<rt>たの</rt></ruby>しくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "楽しい",
     "tense": "past",
@@ -1180,12 +1180,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>高<rt>たか</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>高<rt>たか</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>高<rt>たか</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>高<rt>たか</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -1210,8 +1210,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на かった.",
-      "uz": "I-sifatda oxirgi い o‘rniga かった keladi."
+      "ru": "<ruby>高<rt>たか</rt></ruby>いです → <ruby>高<rt>たか</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>高<rt>たか</rt></ruby>いです → <ruby>高<rt>たか</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "高い",
     "tense": "past",
@@ -1238,12 +1238,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "いい → Прошедшая Утвердительная Форма",
-      "uz": "いい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "いいです → Прошедшее · Утверждение",
+      "uz": "いいです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (исключение いい → よ-)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (いい → よ- istisnosi)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -1268,8 +1268,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "いい: исключение: в прошедшем используется よかった.",
-      "uz": "いい: istisno: o‘tgan zamonda よかった ishlatiladi."
+      "ru": "いいです → よかった. Уберите です. У いい изменённые формы образуются от よ-: よかった. После い-прилагательного だ не добавляем.",
+      "uz": "いいです → よかった. です ni olib tashlang. いい ning o‘zgargan shakllari よ- asosidan yasaladi: よかった. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "いい",
     "tense": "past",
@@ -1294,12 +1294,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>寒<rt>さむ</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>寒<rt>さむ</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>寒<rt>さむ</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>寒<rt>さむ</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, отрицание",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -1324,8 +1324,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на くない.",
-      "uz": "I-sifatda oxirgi い o‘rniga くない keladi."
+      "ru": "<ruby>寒<rt>さむ</rt></ruby>いです → <ruby>寒<rt>さむ</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>寒<rt>さむ</rt></ruby>いです → <ruby>寒<rt>さむ</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "寒い",
     "tense": "present",
@@ -1350,12 +1350,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>近<rt>ちか</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>近<rt>ちか</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>近<rt>ちか</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>近<rt>ちか</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -1380,8 +1380,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на かった.",
-      "uz": "I-sifatda oxirgi い o‘rniga かった keladi."
+      "ru": "<ruby>近<rt>ちか</rt></ruby>いです → <ruby>近<rt>ちか</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>近<rt>ちか</rt></ruby>いです → <ruby>近<rt>ちか</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "近い",
     "tense": "past",
@@ -1406,12 +1406,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>難<rt>むずか</rt></ruby>しい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>難<rt>むずか</rt></ruby>しい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>難<rt>むずか</rt></ruby>しいです → Прошедшее · Отрицание",
+      "uz": "<ruby>難<rt>むずか</rt></ruby>しいです → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -1436,8 +1436,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на くなかった.",
-      "uz": "I-sifatda oxirgi い o‘rniga くなかった keladi."
+      "ru": "<ruby>難<rt>むずか</rt></ruby>しいです → <ruby>難<rt>むずか</rt></ruby>しくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>難<rt>むずか</rt></ruby>しいです → <ruby>難<rt>むずか</rt></ruby>しくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "難しい",
     "tense": "past",
@@ -1462,12 +1462,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>安<rt>やす</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>安<rt>やす</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>安<rt>やす</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>安<rt>やす</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, утверждение",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -1492,8 +1492,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "В утвердительной форме настоящего/будущего времени い-прилагательное сохраняет словарную форму. だ не добавляется.",
-      "uz": "Hozirgi/kelasi tasdiqda i-sifat lug‘aviy shaklda qoladi. だ qo‘shilmaydi."
+      "ru": "<ruby>安<rt>やす</rt></ruby>いです → <ruby>安<rt>やす</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>安<rt>やす</rt></ruby>いです → <ruby>安<rt>やす</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     },
     "lexeme": "安い",
     "tense": "present",
@@ -1518,12 +1518,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>新<rt>あたら</rt></ruby>しい → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>新<rt>あたら</rt></ruby>しい → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>新<rt>あたら</rt></ruby>しいです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>新<rt>あたら</rt></ruby>しいです → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, утверждение",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -1548,8 +1548,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "В утвердительной форме настоящего/будущего времени い-прилагательное сохраняет словарную форму. だ не добавляется.",
-      "uz": "Hozirgi/kelasi tasdiqda i-sifat lug‘aviy shaklda qoladi. だ qo‘shilmaydi."
+      "ru": "<ruby>新<rt>あたら</rt></ruby>しいです → <ruby>新<rt>あたら</rt></ruby>しい. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>新<rt>あたら</rt></ruby>しいです → <ruby>新<rt>あたら</rt></ruby>しい. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     },
     "lexeme": "新しい",
     "tense": "present",
@@ -1574,12 +1574,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>大<rt>おお</rt></ruby>きい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>大<rt>おお</rt></ruby>きい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>大<rt>おお</rt></ruby>きいです → Прошедшее · Отрицание",
+      "uz": "<ruby>大<rt>おお</rt></ruby>きいです → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -1604,8 +1604,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на くなかった.",
-      "uz": "I-sifatda oxirgi い o‘rniga くなかった keladi."
+      "ru": "<ruby>大<rt>おお</rt></ruby>きいです → <ruby>大<rt>おお</rt></ruby>きくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>大<rt>おお</rt></ruby>きいです → <ruby>大<rt>おお</rt></ruby>きくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "大きい",
     "tense": "past",
@@ -1630,12 +1630,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>遅<rt>おそ</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>遅<rt>おそ</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>遅<rt>おそ</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>遅<rt>おそ</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -1660,8 +1660,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У い-прилагательного заменяем конечное い на かった.",
-      "uz": "I-sifatda oxirgi い o‘rniga かった keladi."
+      "ru": "<ruby>遅<rt>おそ</rt></ruby>いです → <ruby>遅<rt>おそ</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>遅<rt>おそ</rt></ruby>いです → <ruby>遅<rt>おそ</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "遅い",
     "tense": "past",
@@ -1686,12 +1686,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>元気<rt>げんき</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>元気<rt>げんき</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>元気<rt>げんき</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>元気<rt>げんき</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, утверждение",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -1716,8 +1716,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У существительных и な-прилагательных связка だ выражает утверждение в настоящем/будущем времени. В разговорной речи она иногда опускается.",
-      "uz": "Otlar va na-sifatlarda hozirgi/kelasi tasdiq bog‘lamasi: だ. Suhbatda u ba’zan tushiriladi."
+      "ru": "<ruby>元気<rt>げんき</rt></ruby>です → <ruby>元気<rt>げんき</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>元気<rt>げんき</rt></ruby>です → <ruby>元気<rt>げんき</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "元気",
     "tense": "present",
@@ -1742,12 +1742,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>好<rt>す</rt></ruby>き → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>好<rt>す</rt></ruby>き → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>好<rt>す</rt></ruby>きです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>好<rt>す</rt></ruby>きです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, отрицание",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -1757,7 +1757,7 @@ const questionSpecs = [
       },
       {
         "id": "36-2",
-        "html": "<ruby>好<rt>す</rt></ruby>きくない",
+        "html": "<ruby>好<rt>す</rt></ruby>きなない",
         "isCorrect": false
       },
       {
@@ -1772,8 +1772,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃない. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃない bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>好<rt>す</rt></ruby>きです → <ruby>好<rt>す</rt></ruby>きじゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>好<rt>す</rt></ruby>きです → <ruby>好<rt>す</rt></ruby>きじゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "好き",
     "tense": "present",
@@ -1798,12 +1798,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>静<rt>しず</rt></ruby>か → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>静<rt>しず</rt></ruby>か → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>静<rt>しず</rt></ruby>かです → Прошедшее · Утверждение",
+      "uz": "<ruby>静<rt>しず</rt></ruby>かです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "な-прилагательное, прошедшее, утверждение",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq"
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -1828,8 +1828,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка だった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda だった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>静<rt>しず</rt></ruby>かです → <ruby>静<rt>しず</rt></ruby>かだった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>静<rt>しず</rt></ruby>かです → <ruby>静<rt>しず</rt></ruby>かだった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "静か",
     "tense": "past",
@@ -1854,12 +1854,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>便利<rt>べんり</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>便利<rt>べんり</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>便利<rt>べんり</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>便利<rt>べんり</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -1884,8 +1884,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃなかった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃなかった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>便利<rt>べんり</rt></ruby>です → <ruby>便利<rt>べんり</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>便利<rt>べんり</rt></ruby>です → <ruby>便利<rt>べんり</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "便利",
     "tense": "past",
@@ -1910,12 +1910,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>有名<rt>ゆうめい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>有名<rt>ゆうめい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>有名<rt>ゆうめい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>有名<rt>ゆうめい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, утверждение",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -1940,8 +1940,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У существительных и な-прилагательных связка だ выражает утверждение в настоящем/будущем времени. В разговорной речи она иногда опускается.",
-      "uz": "Otlar va na-sifatlarda hozirgi/kelasi tasdiq bog‘lamasi: だ. Suhbatda u ba’zan tushiriladi."
+      "ru": "<ruby>有名<rt>ゆうめい</rt></ruby>です → <ruby>有名<rt>ゆうめい</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>有名<rt>ゆうめい</rt></ruby>です → <ruby>有名<rt>ゆうめい</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "有名",
     "tense": "present",
@@ -1966,12 +1966,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>暇<rt>ひま</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>暇<rt>ひま</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>暇<rt>ひま</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>暇<rt>ひま</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, отрицание",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -1996,8 +1996,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃない. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃない bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>暇<rt>ひま</rt></ruby>です → <ruby>暇<rt>ひま</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>暇<rt>ひま</rt></ruby>です → <ruby>暇<rt>ひま</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "暇",
     "tense": "present",
@@ -2024,12 +2024,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "きれい → Настоящее/Будущее · Отрицание",
-      "uz": "きれい → Hozirgi/Kelasi · Inkor"
+      "ru": "きれいです → Настоящее/Будущее · Отрицание",
+      "uz": "きれいです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (な-прилагательное с конечным い)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (い bilan tugagan na-sifat)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -2054,8 +2054,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "きれい: な-прилагательное, несмотря на конечное い. Его отрицательная связка: じゃない.",
-      "uz": "きれい oxiri い bo‘lsa ham, na-sifat hisoblanadi. Uning inkor bog‘lamasi: じゃない."
+      "ru": "きれいです → きれいじゃない. У な-прилагательного замените です на じゃない. Само слово не меняется. きれい относится к な-прилагательным, несмотря на конечное い.",
+      "uz": "きれいです → きれいじゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi. きれい oxiri い bo‘lsa ham, な-sifat hisoblanadi."
     },
     "lexeme": "きれい",
     "tense": "present",
@@ -2080,12 +2080,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>嫌<rt>きら</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>嫌<rt>きら</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>嫌<rt>きら</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>嫌<rt>きら</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (な-прилагательное с конечным い)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (い bilan tugagan na-sifat)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -2110,8 +2110,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка だった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda だった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>嫌<rt>きら</rt></ruby>いです → <ruby>嫌<rt>きら</rt></ruby>いだった. У な-прилагательного замените です на だった. Само слово не меняется. <ruby>嫌<rt>きら</rt></ruby>い относится к な-прилагательным, несмотря на конечное い.",
+      "uz": "<ruby>嫌<rt>きら</rt></ruby>いです → <ruby>嫌<rt>きら</rt></ruby>いだった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi. <ruby>嫌<rt>きら</rt></ruby>い oxiri い bo‘lsa ham, な-sifat hisoblanadi."
     },
     "lexeme": "嫌い",
     "tense": "past",
@@ -2136,12 +2136,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>上手<rt>じょうず</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>上手<rt>じょうず</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>上手<rt>じょうず</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>上手<rt>じょうず</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, отрицание",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -2151,7 +2151,7 @@ const questionSpecs = [
       },
       {
         "id": "43-2",
-        "html": "<ruby>上手<rt>じょうず</rt></ruby>くない",
+        "html": "<ruby>上手<rt>じょうず</rt></ruby>ない",
         "isCorrect": false
       },
       {
@@ -2166,8 +2166,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃない. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃない bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>上手<rt>じょうず</rt></ruby>です → <ruby>上手<rt>じょうず</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>上手<rt>じょうず</rt></ruby>です → <ruby>上手<rt>じょうず</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "上手",
     "tense": "present",
@@ -2192,12 +2192,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, утверждение",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -2222,8 +2222,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У существительных и な-прилагательных связка だ выражает утверждение в настоящем/будущем времени. В разговорной речи она иногда опускается.",
-      "uz": "Otlar va na-sifatlarda hozirgi/kelasi tasdiq bog‘lamasi: だ. Suhbatda u ba’zan tushiriladi."
+      "ru": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です → <ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>大丈夫<rt>だいじょうぶ</rt></ruby>です → <ruby>大丈夫<rt>だいじょうぶ</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "大丈夫",
     "tense": "present",
@@ -2248,12 +2248,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>真面目<rt>まじめ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>真面目<rt>まじめ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>真面目<rt>まじめ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>真面目<rt>まじめ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -2278,8 +2278,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃなかった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃなかった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>真面目<rt>まじめ</rt></ruby>です → <ruby>真面目<rt>まじめ</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>真面目<rt>まじめ</rt></ruby>です → <ruby>真面目<rt>まじめ</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "真面目",
     "tense": "past",
@@ -2296,20 +2296,20 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "A",
-        "text": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>私<rt>わたし</rt></ruby>、<ruby>料理<rt>りょうり</rt></ruby>どうだったと<ruby>思<rt>おも</rt></ruby>う？"
+        "text": "<ruby>去年<rt>きょねん</rt></ruby>の<ruby>私<rt>わたし</rt></ruby>、<ruby>料理<rt>りょうり</rt></ruby>はどうだった？"
       },
       {
         "speaker": "B",
-        "text": "うーん、たぶんかなり____。"
+        "text": "うーん、<ruby>今<rt>いま</rt></ruby>よりずっと____。"
       }
     ],
     "prompt": {
-      "ru": "<ruby>下手<rt>へた</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>下手<rt>へた</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>下手<rt>へた</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>下手<rt>へた</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "な-прилагательное, прошедшее, утверждение",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq"
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -2334,8 +2334,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка だった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda だった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>下手<rt>へた</rt></ruby>です → <ruby>下手<rt>へた</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>下手<rt>へた</rt></ruby>です → <ruby>下手<rt>へた</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "下手",
     "tense": "past",
@@ -2353,16 +2353,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "A",
-        "text": "<ruby>弟<rt>おとうと</rt></ruby>さん、<ruby>大学生<rt>だいがくせい</rt></ruby>？"
+        "text": "<ruby>弟<rt>おとうと</rt></ruby>さん、もう<ruby>働<rt>はたら</rt></ruby>いている？"
       },
       {
         "speaker": "B",
-        "text": "うん、<ruby>今<rt>いま</rt></ruby><ruby>一年生<rt>いちねんせい</rt></ruby>だから____。"
+        "text": "ううん、まだ____。"
       }
     ],
     "prompt": {
-      "ru": "<ruby>学生<rt>がくせい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>学生<rt>がくせい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>学生<rt>がくせい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>学生<rt>がくせい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "Существительное, настоящее/будущее, утверждение",
@@ -2391,8 +2391,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У существительных и な-прилагательных связка だ выражает утверждение в настоящем/будущем времени. В разговорной речи она иногда опускается.",
-      "uz": "Otlar va na-sifatlarda hozirgi/kelasi tasdiq bog‘lamasi: だ. Suhbatda u ba’zan tushiriladi."
+      "ru": "<ruby>学生<rt>がくせい</rt></ruby>です → <ruby>学生<rt>がくせい</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>学生<rt>がくせい</rt></ruby>です → <ruby>学生<rt>がくせい</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "学生",
     "tense": "present",
@@ -2418,8 +2418,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>日本人<rt>にほんじん</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>日本人<rt>にほんじん</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>日本人<rt>にほんじん</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>日本人<rt>にほんじん</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "Существительное, настоящее/будущее, отрицание",
@@ -2448,8 +2448,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃない. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃない bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>日本人<rt>にほんじん</rt></ruby>です → <ruby>日本人<rt>にほんじん</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>日本人<rt>にほんじん</rt></ruby>です → <ruby>日本人<rt>にほんじん</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "日本人",
     "tense": "present",
@@ -2475,8 +2475,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>休<rt>やす</rt></ruby>み → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>休<rt>やす</rt></ruby>み → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>休<rt>やす</rt></ruby>みです → Прошедшее · Утверждение",
+      "uz": "<ruby>休<rt>やす</rt></ruby>みです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "Существительное, прошедшее, утверждение",
@@ -2505,8 +2505,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка だった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda だった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>休<rt>やす</rt></ruby>みです → <ruby>休<rt>やす</rt></ruby>みだった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>休<rt>やす</rt></ruby>みです → <ruby>休<rt>やす</rt></ruby>みだった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "休み",
     "tense": "past",
@@ -2532,8 +2532,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>病気<rt>びょうき</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>病気<rt>びょうき</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>病気<rt>びょうき</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>病気<rt>びょうき</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "Существительное, прошедшее, отрицание",
@@ -2562,8 +2562,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃなかった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃなかった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>病気<rt>びょうき</rt></ruby>です → <ruby>病気<rt>びょうき</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>病気<rt>びょうき</rt></ruby>です → <ruby>病気<rt>びょうき</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "病気",
     "tense": "past",
@@ -2589,8 +2589,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>雨<rt>あめ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>雨<rt>あめ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>雨<rt>あめ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>雨<rt>あめ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "Существительное, настоящее/будущее, утверждение",
@@ -2619,8 +2619,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У существительных и な-прилагательных связка だ выражает утверждение в настоящем/будущем времени. В разговорной речи она иногда опускается.",
-      "uz": "Otlar va na-sifatlarda hozirgi/kelasi tasdiq bog‘lamasi: だ. Suhbatda u ba’zan tushiriladi."
+      "ru": "<ruby>雨<rt>あめ</rt></ruby>です → <ruby>雨<rt>あめ</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>雨<rt>あめ</rt></ruby>です → <ruby>雨<rt>あめ</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "雨",
     "tense": "present",
@@ -2646,8 +2646,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>先生<rt>せんせい</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>先生<rt>せんせい</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>先生<rt>せんせい</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>先生<rt>せんせい</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "Существительное, прошедшее, утверждение",
@@ -2676,8 +2676,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка だった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda だった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>先生<rt>せんせい</rt></ruby>です → <ruby>先生<rt>せんせい</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>先生<rt>せんせい</rt></ruby>です → <ruby>先生<rt>せんせい</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "先生",
     "tense": "past",
@@ -2703,8 +2703,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>留学生<rt>りゅうがくせい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>留学生<rt>りゅうがくせい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
       "ru": "Существительное, настоящее/будущее, утверждение",
@@ -2733,8 +2733,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "У существительных и な-прилагательных связка だ выражает утверждение в настоящем/будущем времени. В разговорной речи она иногда опускается.",
-      "uz": "Otlar va na-sifatlarda hozirgi/kelasi tasdiq bog‘lamasi: だ. Suhbatda u ba’zan tushiriladi."
+      "ru": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>です → <ruby>留学生<rt>りゅうがくせい</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>留学生<rt>りゅうがくせい</rt></ruby>です → <ruby>留学生<rt>りゅうがくせい</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "留学生",
     "tense": "present",
@@ -2760,8 +2760,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>医者<rt>いしゃ</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>医者<rt>いしゃ</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>医者<rt>いしゃ</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>医者<rt>いしゃ</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "Существительное, настоящее/будущее, отрицание",
@@ -2790,8 +2790,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃない. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃない bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>医者<rt>いしゃ</rt></ruby>です → <ruby>医者<rt>いしゃ</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>医者<rt>いしゃ</rt></ruby>です → <ruby>医者<rt>いしゃ</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "医者",
     "tense": "present",
@@ -2817,8 +2817,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>金曜日<rt>きんようび</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>金曜日<rt>きんようび</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>金曜日<rt>きんようび</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>金曜日<rt>きんようび</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "Существительное, прошедшее, утверждение",
@@ -2847,8 +2847,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка だった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda だった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>金曜日<rt>きんようび</rt></ruby>です → <ruby>金曜日<rt>きんようび</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>金曜日<rt>きんようび</rt></ruby>です → <ruby>金曜日<rt>きんようび</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "金曜日",
     "tense": "past",
@@ -2874,8 +2874,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>会議<rt>かいぎ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>会議<rt>かいぎ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>会議<rt>かいぎ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>会議<rt>かいぎ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "Существительное, прошедшее, отрицание",
@@ -2904,8 +2904,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Здесь нужна связка じゃなかった. У な-прилагательных и существительных формы связки одинаковы.",
-      "uz": "Bu yerda じゃなかった bog‘lamasi kerak. Na-sifatlar va otlarda bog‘lama shakllari bir xil."
+      "ru": "<ruby>会議<rt>かいぎ</rt></ruby>です → <ruby>会議<rt>かいぎ</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>会議<rt>かいぎ</rt></ruby>です → <ruby>会議<rt>かいぎ</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "会議",
     "tense": "past",
@@ -3613,7 +3613,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "A",
-        "text": "この<ruby>部屋<rt>へや</rt></ruby>、どう？"
+        "text": "このアパート、どう？"
       },
       {
         "speaker": "B",
@@ -3621,12 +3621,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "いい → Настоящее/Будущее · Отрицание",
-      "uz": "いい → Hozirgi/Kelasi · Inkor"
+      "ru": "いいです → Настоящее/Будущее · Отрицание",
+      "uz": "いいです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (исключение いい → よ-)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (いい → よ- istisnosi)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -3651,8 +3651,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "В отрицании いい используется основа よ-: よくない. いいじゃない может выражать разве не хорошо?, но это не указанная отрицательная форма.",
-      "uz": "いい ning inkorida よ- asosi ishlatiladi: よくない. いいじゃない yaxshi-ku? degan ma’noda kelishi mumkin, ammo bu so‘ralgan inkor shakli emas."
+      "ru": "いいです → よくない. Уберите です. У いい изменённые формы образуются от よ-: よくない. После い-прилагательного だ не добавляем.",
+      "uz": "いいです → よくない. です ni olib tashlang. いい ning o‘zgargan shakllari よ- asosidan yasaladi: よくない. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "いい",
     "tense": "present",
@@ -3675,12 +3675,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "いい → Прошедшая Отрицательная Форма",
-      "uz": "いい → O‘tgan Zamon Inkor Shakli"
+      "ru": "いいです → Прошедшее · Отрицание",
+      "uz": "いいです → O‘tgan Zamon · Inkor"
     },
     "context": {
-      "ru": "い-прилагательное, прошедшее, отрицание (исключение いい → よ-)",
-      "uz": "I-sifat, o‘tgan zamon, inkor (いい → よ- istisnosi)"
+      "ru": "い-прилагательное, прошедшее, отрицание",
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -3705,8 +3705,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Прошедшее отрицание いい: よくなかった.",
-      "uz": "いい ning o‘tgan inkor shakli: よくなかった."
+      "ru": "いいです → よくなかった. Уберите です. У いい изменённые формы образуются от よ-: よくなかった. После い-прилагательного だ не добавляем.",
+      "uz": "いいです → よくなかった. です ni olib tashlang. いい ning o‘zgargan shakllari よ- asosidan yasaladi: よくなかった. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "いい",
     "tense": "past",
@@ -3723,7 +3723,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "A",
-        "text": "この<ruby>写真<rt>しゃしん</rt></ruby>の<ruby>子犬<rt>こいぬ</rt></ruby>、どうだった？"
+        "text": "<ruby>昨日<rt>きのう</rt></ruby><ruby>見<rt>み</rt></ruby>た<ruby>子犬<rt>こいぬ</rt></ruby>、どうだった？"
       },
       {
         "speaker": "B",
@@ -3731,12 +3731,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "かわいい → Прошедшая Утвердительная Форма",
-      "uz": "かわいい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "かわいいです → Прошедшее · Утверждение",
+      "uz": "かわいいです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -3761,8 +3761,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "かわいい спрягается регулярно: убирается только последнее い, затем добавляется かった.",
-      "uz": "かわいい odatiy tuslanadi: faqat oxirgi い olib tashlanib, かった qo‘shiladi."
+      "ru": "かわいいです → かわいかった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем. У かわいい меняется только последнее い; это обычное い-прилагательное.",
+      "uz": "かわいいです → かわいかった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi. かわいい da faqat oxirgi い o‘zgaradi; bu odatiy い-sifat."
     },
     "lexeme": "かわいい",
     "tense": "past",
@@ -3783,12 +3783,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>暑<rt>あつ</rt></ruby>い → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>暑<rt>あつ</rt></ruby>い → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>暑<rt>あつ</rt></ruby>いです → Прошедшее · Отрицание",
+      "uz": "<ruby>暑<rt>あつ</rt></ruby>いです → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -3813,8 +3813,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Конечное い заменяется на くなかった. そんなに сочетается здесь с отрицанием.",
-      "uz": "Oxirgi い o‘rniga くなかった keladi. Bu yerda そんなに inkor bilan ishlatilgan."
+      "ru": "<ruby>暑<rt>あつ</rt></ruby>いです → <ruby>暑<rt>あつ</rt></ruby>くなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>暑<rt>あつ</rt></ruby>いです → <ruby>暑<rt>あつ</rt></ruby>くなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "暑い",
     "tense": "past",
@@ -3836,12 +3836,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "おいしい → Настоящее/Будущее · Утверждение",
-      "uz": "おいしい → Hozirgi/Kelasi · Tasdiq"
+      "ru": "おいしいです → Настоящее/Будущее · Утверждение",
+      "uz": "おいしいです → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -3866,8 +3866,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Перед と <ruby>思<rt>おも</rt></ruby>う い-прилагательное остаётся в простой форме; だ не добавляется.",
-      "uz": "と <ruby>思<rt>おも</rt></ruby>う dan oldin i-sifat oddiy shaklda qoladi; だ qo‘shilmaydi."
+      "ru": "おいしいです → おいしい. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "おいしいです → おいしい. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     },
     "lexeme": "おいしい",
     "tense": "present",
@@ -3885,16 +3885,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>去年<rt>きょねん</rt></ruby>は____<ruby>店<rt>みせ</rt></ruby>が、<ruby>今<rt>いま</rt></ruby>は<ruby>安<rt>やす</rt></ruby>くなった。"
+        "text": "<ruby>去年<rt>きょねん</rt></ruby>は____パンが、<ruby>今<rt>いま</rt></ruby>は<ruby>安<rt>やす</rt></ruby>くなった。"
       }
     ],
     "prompt": {
-      "ru": "<ruby>高<rt>たか</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>高<rt>たか</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>高<rt>たか</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>高<rt>たか</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (определение перед существительным)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (ot oldidagi aniqlovchi)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -3919,8 +3919,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Прошедшая форма い-прилагательного может определять существительное: <ruby>高<rt>たか</rt></ruby>かった <ruby>店<rt>みせ</rt></ruby>: магазин, который был дорогим.",
-      "uz": "I-sifatning o‘tgan shakli otni aniqlashi mumkin: <ruby>高<rt>たか</rt></ruby>かった <ruby>店<rt>みせ</rt></ruby>: ilgari qimmat bo‘lgan do‘kon."
+      "ru": "<ruby>高<rt>たか</rt></ruby>いです → <ruby>高<rt>たか</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>高<rt>たか</rt></ruby>いです → <ruby>高<rt>たか</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "高い",
     "tense": "past",
@@ -3945,12 +3945,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>欲<rt>ほ</rt></ruby>しい → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>欲<rt>ほ</rt></ruby>しい → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>欲<rt>ほ</rt></ruby>しいです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>欲<rt>ほ</rt></ruby>しいです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, отрицание",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -3975,8 +3975,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>欲<rt>ほ</rt></ruby>しい: い-прилагательное: его отрицание: <ruby>欲<rt>ほ</rt></ruby>しくない.",
-      "uz": "<ruby>欲<rt>ほ</rt></ruby>しい: i-sifat: uning inkori: <ruby>欲<rt>ほ</rt></ruby>しくない."
+      "ru": "<ruby>欲<rt>ほ</rt></ruby>しいです → <ruby>欲<rt>ほ</rt></ruby>しくない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>欲<rt>ほ</rt></ruby>しいです → <ruby>欲<rt>ほ</rt></ruby>しくない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "欲しい",
     "tense": "present",
@@ -4002,12 +4002,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>若<rt>わか</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>若<rt>わか</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>若<rt>わか</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>若<rt>わか</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (придаточное времени с とき)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (とき bilan payt ifodasi)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -4032,8 +4032,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Перед とき подходит простая прошедшая форма <ruby>若<rt>わか</rt></ruby>かった: речь о более молодом возрасте.",
-      "uz": "とき dan oldin <ruby>若<rt>わか</rt></ruby>かった oddiy o‘tgan shakli mos keladi: gap yoshlik davri haqida."
+      "ru": "<ruby>若<rt>わか</rt></ruby>いです → <ruby>若<rt>わか</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>若<rt>わか</rt></ruby>いです → <ruby>若<rt>わか</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     },
     "lexeme": "若い",
     "tense": "past",
@@ -4055,12 +4055,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>安全<rt>あんぜん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>安全<rt>あんぜん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>安全<rt>あんぜん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>安全<rt>あんぜん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -4085,8 +4085,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "В утвердительной форме настоящего/будущего времени перед と <ruby>思<rt>おも</rt></ruby>う у な-прилагательного нужна связка だ.",
-      "uz": "Hozirgi/kelasi tasdiqda と <ruby>思<rt>おも</rt></ruby>う dan oldin na-sifatga だ bog‘lamasi kerak."
+      "ru": "<ruby>安全<rt>あんぜん</rt></ruby>です → <ruby>安全<rt>あんぜん</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>安全<rt>あんぜん</rt></ruby>です → <ruby>安全<rt>あんぜん</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "安全",
     "tense": "present",
@@ -4108,12 +4108,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>必要<rt>ひつよう</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>必要<rt>ひつよう</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>必要<rt>ひつよう</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>必要<rt>ひつよう</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>言<rt>い</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>言<rt>い</rt></ruby>う bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -4138,8 +4138,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>必要<rt>ひつよう</rt></ruby>: な-прилагательное: отрицание перед と: <ruby>必要<rt>ひつよう</rt></ruby>じゃない.",
-      "uz": "<ruby>必要<rt>ひつよう</rt></ruby>: na-sifat: と dan oldingi inkori: <ruby>必要<rt>ひつよう</rt></ruby>じゃない."
+      "ru": "<ruby>必要<rt>ひつよう</rt></ruby>です → <ruby>必要<rt>ひつよう</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>必要<rt>ひつよう</rt></ruby>です → <ruby>必要<rt>ひつよう</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "必要",
     "tense": "present",
@@ -4161,12 +4161,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>簡単<rt>かんたん</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>簡単<rt>かんたん</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>簡単<rt>かんたん</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>簡単<rt>かんたん</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (противопоставление с けど)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (けど bilan zidlov)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -4191,8 +4191,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Простая прошедшая связка な-прилагательного: だった; けど присоединяется после неё.",
-      "uz": "Na-sifatning oddiy o‘tgan bog‘lamasi: だった; undan keyin けど qo‘shiladi."
+      "ru": "<ruby>簡単<rt>かんたん</rt></ruby>です → <ruby>簡単<rt>かんたん</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>簡単<rt>かんたん</rt></ruby>です → <ruby>簡単<rt>かんたん</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "簡単",
     "tense": "past",
@@ -4217,12 +4217,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>親切<rt>しんせつ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>親切<rt>しんせつ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>親切<rt>しんせつ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>親切<rt>しんせつ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -4247,8 +4247,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Для прошедшего отрицания <ruby>親切<rt>しんせつ</rt></ruby> используется связка じゃなかった.",
-      "uz": "<ruby>親切<rt>しんせつ</rt></ruby> ning o‘tgan inkori uchun じゃなかった bog‘lamasi ishlatiladi."
+      "ru": "<ruby>親切<rt>しんせつ</rt></ruby>です → <ruby>親切<rt>しんせつ</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>親切<rt>しんせつ</rt></ruby>です → <ruby>親切<rt>しんせつ</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "親切",
     "tense": "past",
@@ -4271,12 +4271,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "きれい → Прошедшая Утвердительная Форма",
-      "uz": "きれい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "きれいです → Прошедшее · Утверждение",
+      "uz": "きれいです → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (な-прилагательное с конечным い)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (い bilan tugagan na-sifat)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -4301,8 +4301,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "きれい: な-прилагательное: прошедшая форма перед と: きれいだった.",
-      "uz": "きれい: na-sifat: と dan oldingi o‘tgan shakli: きれいだった."
+      "ru": "きれいです → きれいだった. У な-прилагательного замените です на だった. Само слово не меняется. きれい относится к な-прилагательным, несмотря на конечное い.",
+      "uz": "きれいです → きれいだった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi. きれい oxiri い bo‘lsa ham, な-sifat hisoblanadi."
     },
     "lexeme": "きれい",
     "tense": "past",
@@ -4324,12 +4324,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>静<rt>しず</rt></ruby>か → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>静<rt>しず</rt></ruby>か → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>静<rt>しず</rt></ruby>かです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>静<rt>しず</rt></ruby>かです → Hozirgi/Kelasi · Inkor"
     },
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (придаточное причины с から)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (から bilan sabab ifodasi)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -4354,8 +4354,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Причина выбора другого места: шум сейчас. Отрицательная форма настоящего/будущего времени для <ruby>静<rt>しず</rt></ruby>か: <ruby>静<rt>しず</rt></ruby>かじゃない.",
-      "uz": "Boshqa joyni tanlash sababi: hozirgi shovqin. <ruby>静<rt>しず</rt></ruby>か ning hozirgi/kelasi inkori: <ruby>静<rt>しず</rt></ruby>かじゃない."
+      "ru": "<ruby>静<rt>しず</rt></ruby>かです → <ruby>静<rt>しず</rt></ruby>かじゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>静<rt>しず</rt></ruby>かです → <ruby>静<rt>しず</rt></ruby>かじゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "静か",
     "tense": "present",
@@ -4377,12 +4377,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>大切<rt>たいせつ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>大切<rt>たいせつ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>大切<rt>たいせつ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>大切<rt>たいせつ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (придаточное причины с から)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (から bilan sabab ifodasi)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -4407,8 +4407,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Перед から в указанной утвердительной форме <ruby>大切<rt>たいせつ</rt></ruby> нужна связка だ.",
-      "uz": "から dan oldin <ruby>大切<rt>たいせつ</rt></ruby> ning so‘ralgan tasdiq shakliga だ bog‘lamasi kerak."
+      "ru": "<ruby>大切<rt>たいせつ</rt></ruby>です → <ruby>大切<rt>たいせつ</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>大切<rt>たいせつ</rt></ruby>です → <ruby>大切<rt>たいせつ</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "大切",
     "tense": "present",
@@ -4430,12 +4430,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>自由<rt>じゆう</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>自由<rt>じゆう</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>自由<rt>じゆう</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>自由<rt>じゆう</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -4460,8 +4460,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Перед と <ruby>思<rt>おも</rt></ruby>う сохраняется прошедшая отрицательная связка じゃなかった.",
-      "uz": "と <ruby>思<rt>おも</rt></ruby>う dan oldin じゃなかった o‘tgan inkor bog‘lamasi saqlanadi."
+      "ru": "<ruby>自由<rt>じゆう</rt></ruby>です → <ruby>自由<rt>じゆう</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>自由<rt>じゆう</rt></ruby>です → <ruby>自由<rt>じゆう</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "自由",
     "tense": "past",
@@ -4483,12 +4483,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>休<rt>やす</rt></ruby>み → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>休<rt>やす</rt></ruby>み → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>休<rt>やす</rt></ruby>みです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>休<rt>やす</rt></ruby>みです → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -4513,8 +4513,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Перед と <ruby>思<rt>おも</rt></ruby>う существительное в утвердительной форме настоящего/будущего времени требует だ. Форма может относиться к завтрашнему дню.",
-      "uz": "と <ruby>思<rt>おも</rt></ruby>う dan oldin otning hozirgi/kelasi tasdiq shakliga だ kerak. Bu shakl ertangi kunga ham tegishli bo‘lishi mumkin."
+      "ru": "<ruby>休<rt>やす</rt></ruby>みです → <ruby>休<rt>やす</rt></ruby>みだ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>休<rt>やす</rt></ruby>みです → <ruby>休<rt>やす</rt></ruby>みだ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "休み",
     "tense": "present",
@@ -4536,12 +4536,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>学生<rt>がくせい</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>学生<rt>がくせい</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>学生<rt>がくせい</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>学生<rt>がくせい</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (косвенная речь с と <ruby>言<rt>い</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>言<rt>い</rt></ruby>う bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "options": [
       {
@@ -4566,8 +4566,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Цитируемая отрицательная форма существительного: <ruby>学生<rt>がくせい</rt></ruby>じゃない.",
-      "uz": "Otning ko‘chirma inkor shakli: <ruby>学生<rt>がくせい</rt></ruby>じゃない."
+      "ru": "<ruby>学生<rt>がくせい</rt></ruby>です → <ruby>学生<rt>がくせい</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>学生<rt>がくせい</rt></ruby>です → <ruby>学生<rt>がくせい</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "学生",
     "tense": "present",
@@ -4589,12 +4589,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>雨<rt>あめ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>雨<rt>あめ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>雨<rt>あめ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>雨<rt>あめ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "options": [
       {
@@ -4619,8 +4619,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>雨<rt>あめ</rt></ruby>: существительное. Простая прошедшая связка перед と: だった.",
-      "uz": "<ruby>雨<rt>あめ</rt></ruby>: ot. と dan oldingi oddiy o‘tgan bog‘lama: だった."
+      "ru": "<ruby>雨<rt>あめ</rt></ruby>です → <ruby>雨<rt>あめ</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>雨<rt>あめ</rt></ruby>です → <ruby>雨<rt>あめ</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "雨",
     "tense": "past",
@@ -4642,12 +4642,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>休<rt>やす</rt></ruby>み → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>休<rt>やす</rt></ruby>み → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>休<rt>やす</rt></ruby>みです → Прошедшее · Отрицание",
+      "uz": "<ruby>休<rt>やす</rt></ruby>みです → O‘tgan Zamon · Inkor"
     },
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (придаточное причины с から)",
-      "uz": "Ot, o‘tgan zamon, inkor (から bilan sabab ifodasi)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -4672,8 +4672,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Причина похода на работу: вчера не было выходного. Нужна связка じゃなかった.",
-      "uz": "Ishga borish sababi: kecha dam olish kuni bo‘lmagan. じゃなかった bog‘lamasi kerak."
+      "ru": "<ruby>休<rt>やす</rt></ruby>みです → <ruby>休<rt>やす</rt></ruby>みじゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>休<rt>やす</rt></ruby>みです → <ruby>休<rt>やす</rt></ruby>みじゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "休み",
     "tense": "past",
@@ -4695,8 +4695,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>冬<rt>ふゆ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>冬<rt>ふゆ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>冬<rt>ふゆ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>冬<rt>ふゆ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "context": {
       "ru": "Существительное, прошедшее, утверждение",
@@ -4725,8 +4725,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Для описания сезона в прошлом существительное <ruby>冬<rt>ふゆ</rt></ruby> получает связку だった.",
-      "uz": "O‘tgan faslni tasvirlash uchun <ruby>冬<rt>ふゆ</rt></ruby> otiga だった bog‘lamasi qo‘shiladi."
+      "ru": "<ruby>冬<rt>ふゆ</rt></ruby>です → <ruby>冬<rt>ふゆ</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>冬<rt>ふゆ</rt></ruby>です → <ruby>冬<rt>ふゆ</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "冬",
     "tense": "past",
@@ -4747,8 +4747,8 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>本物<rt>ほんもの</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>本物<rt>ほんもの</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>本物<rt>ほんもの</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>本物<rt>ほんもの</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "context": {
       "ru": "Существительное, настоящее/будущее, отрицание",
@@ -4777,8 +4777,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Существительное <ruby>本物<rt>ほんもの</rt></ruby> (подлинник) отрицается связкой じゃない.",
-      "uz": "<ruby>本物<rt>ほんもの</rt></ruby> (asl nusxa) oti じゃない bog‘lamasi bilan inkor qilinadi."
+      "ru": "<ruby>本物<rt>ほんもの</rt></ruby>です → <ruby>本物<rt>ほんもの</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>本物<rt>ほんもの</rt></ruby>です → <ruby>本物<rt>ほんもの</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "本物",
     "tense": "present",
@@ -4800,12 +4800,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>約束<rt>やくそく</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>約束<rt>やくそく</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>約束<rt>やくそく</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>約束<rt>やくそく</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (придаточное причины с から)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (から bilan sabab ifodasi)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "options": [
       {
@@ -4830,8 +4830,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Перед から в утвердительной форме настоящего/будущего времени после <ruby>約束<rt>やくそく</rt></ruby> нужна связка だ.",
-      "uz": "Hozirgi/kelasi tasdiqda から dan oldin <ruby>約束<rt>やくそく</rt></ruby> otiga だ bog‘lamasi kerak."
+      "ru": "<ruby>約束<rt>やくそく</rt></ruby>です → <ruby>約束<rt>やくそく</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>約束<rt>やくそく</rt></ruby>です → <ruby>約束<rt>やくそく</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "約束",
     "tense": "present",
@@ -4853,12 +4853,12 @@ const questionSpecs = [
       }
     ],
     "prompt": {
-      "ru": "<ruby>医者<rt>いしゃ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>医者<rt>いしゃ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>医者<rt>いしゃ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>医者<rt>いしゃ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "options": [
       {
@@ -4883,8 +4883,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "Прошедшее отрицание существительного: <ruby>医者<rt>いしゃ</rt></ruby>じゃなかった. と <ruby>聞<rt>き</rt></ruby>いた присоединяется к этой простой форме.",
-      "uz": "Otning o‘tgan inkori: <ruby>医者<rt>いしゃ</rt></ruby>じゃなかった. と <ruby>聞<rt>き</rt></ruby>いた shu oddiy shaklga qo‘shiladi."
+      "ru": "<ruby>医者<rt>いしゃ</rt></ruby>です → <ruby>医者<rt>いしゃ</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>医者<rt>いしゃ</rt></ruby>です → <ruby>医者<rt>いしゃ</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     },
     "lexeme": "医者",
     "tense": "past",
@@ -5827,11 +5827,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, утверждение",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>白<rt>しろ</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>白<rt>しろ</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>白<rt>しろ</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>白<rt>しろ</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -5846,7 +5846,7 @@ const questionSpecs = [
       },
       {
         "id": "119-3",
-        "html": "<ruby>白<rt>しろ</rt></ruby>だ",
+        "html": "<ruby>白<rt>しろ</rt></ruby>いだった",
         "isCorrect": false
       },
       {
@@ -5856,8 +5856,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>白<rt>しろ</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится.",
-      "uz": "<ruby>白<rt>しろ</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi."
+      "ru": "<ruby>白<rt>しろ</rt></ruby>いです → <ruby>白<rt>しろ</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>白<rt>しろ</rt></ruby>いです → <ruby>白<rt>しろ</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -5879,11 +5879,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, утверждение",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>黒<rt>くろ</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>黒<rt>くろ</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>黒<rt>くろ</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>黒<rt>くろ</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -5898,7 +5898,7 @@ const questionSpecs = [
       },
       {
         "id": "120-3",
-        "html": "<ruby>黒<rt>くろ</rt></ruby>だ",
+        "html": "<ruby>黒<rt>くろ</rt></ruby>いだった",
         "isCorrect": false
       },
       {
@@ -5908,8 +5908,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>黒<rt>くろ</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится.",
-      "uz": "<ruby>黒<rt>くろ</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi."
+      "ru": "<ruby>黒<rt>くろ</rt></ruby>いです → <ruby>黒<rt>くろ</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>黒<rt>くろ</rt></ruby>いです → <ruby>黒<rt>くろ</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -5931,12 +5931,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>赤<rt>あか</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>赤<rt>あか</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>赤<rt>あか</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>赤<rt>あか</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -5951,7 +5951,7 @@ const questionSpecs = [
       },
       {
         "id": "121-3",
-        "html": "<ruby>赤<rt>あか</rt></ruby>だ",
+        "html": "<ruby>赤<rt>あか</rt></ruby>いだった",
         "isCorrect": false
       },
       {
@@ -5961,8 +5961,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>赤<rt>あか</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>赤<rt>あか</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>赤<rt>あか</rt></ruby>いです → <ruby>赤<rt>あか</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>赤<rt>あか</rt></ruby>いです → <ruby>赤<rt>あか</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -5984,12 +5984,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>青<rt>あお</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>青<rt>あお</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>青<rt>あお</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>青<rt>あお</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6004,7 +6004,7 @@ const questionSpecs = [
       },
       {
         "id": "122-3",
-        "html": "<ruby>青<rt>あお</rt></ruby>だ",
+        "html": "<ruby>青<rt>あお</rt></ruby>いだった",
         "isCorrect": false
       },
       {
@@ -6014,8 +6014,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>青<rt>あお</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>青<rt>あお</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>青<rt>あお</rt></ruby>いです → <ruby>青<rt>あお</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>青<rt>あお</rt></ruby>いです → <ruby>青<rt>あお</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6037,12 +6037,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>長<rt>なが</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>長<rt>なが</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>長<rt>なが</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>長<rt>なが</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6067,8 +6067,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>長<rt>なが</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>長<rt>なが</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>長<rt>なが</rt></ruby>いです → <ruby>長<rt>なが</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>長<rt>なが</rt></ruby>いです → <ruby>長<rt>なが</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6090,12 +6090,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>短<rt>みじか</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>短<rt>みじか</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>短<rt>みじか</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>短<rt>みじか</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6120,8 +6120,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>短<rt>みじか</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>短<rt>みじか</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>短<rt>みじか</rt></ruby>いです → <ruby>短<rt>みじか</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>短<rt>みじか</rt></ruby>いです → <ruby>短<rt>みじか</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6143,12 +6143,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>広<rt>ひろ</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>広<rt>ひろ</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>広<rt>ひろ</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>広<rt>ひろ</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6173,8 +6173,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>広<rt>ひろ</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>広<rt>ひろ</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>広<rt>ひろ</rt></ruby>いです → <ruby>広<rt>ひろ</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>広<rt>ひろ</rt></ruby>いです → <ruby>広<rt>ひろ</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6196,12 +6196,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>狭<rt>せま</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>狭<rt>せま</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>狭<rt>せま</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>狭<rt>せま</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6226,8 +6226,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>狭<rt>せま</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>狭<rt>せま</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>狭<rt>せま</rt></ruby>いです → <ruby>狭<rt>せま</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>狭<rt>せま</rt></ruby>いです → <ruby>狭<rt>せま</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6249,12 +6249,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>重<rt>おも</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>重<rt>おも</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>重<rt>おも</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>重<rt>おも</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6279,8 +6279,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>重<rt>おも</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>重<rt>おも</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>重<rt>おも</rt></ruby>いです → <ruby>重<rt>おも</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>重<rt>おも</rt></ruby>いです → <ruby>重<rt>おも</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6302,12 +6302,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>軽<rt>かる</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>軽<rt>かる</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>軽<rt>かる</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>軽<rt>かる</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6332,8 +6332,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>軽<rt>かる</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>軽<rt>かる</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>軽<rt>かる</rt></ruby>いです → <ruby>軽<rt>かる</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>軽<rt>かる</rt></ruby>いです → <ruby>軽<rt>かる</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6355,12 +6355,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, утверждение",
+      "uz": "い-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>強<rt>つよ</rt></ruby>い → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>強<rt>つよ</rt></ruby>い → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>強<rt>つよ</rt></ruby>いです → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>強<rt>つよ</rt></ruby>いです → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -6385,8 +6385,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>強<rt>つよ</rt></ruby>い: утвердительная форма настоящего/будущего времени. После い-прилагательного связка だ не ставится. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>強<rt>つよ</rt></ruby>い: hozirgi/kelasi zamon tasdiq shakli. I-sifatdan keyin だ bog‘lamasi qo‘yilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>強<rt>つよ</rt></ruby>いです → <ruby>強<rt>つよ</rt></ruby>い. Уберите です. Само い-прилагательное не меняется. Связку だ не добавляем.",
+      "uz": "<ruby>強<rt>つよ</rt></ruby>いです → <ruby>強<rt>つよ</rt></ruby>い. です ni olib tashlang. い-sifatning o‘zi o‘zgarmaydi. だ bog‘lamasi qo‘shilmaydi."
     }
   },
   {
@@ -6408,11 +6408,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, отрицание",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>弱<rt>よわ</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>弱<rt>よわ</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>弱<rt>よわ</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>弱<rt>よわ</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6437,8 +6437,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>弱<rt>よわ</rt></ruby>い → <ruby>弱<rt>よわ</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна.",
-      "uz": "<ruby>弱<rt>よわ</rt></ruby>い → <ruby>弱<rt>よわ</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>弱<rt>よわ</rt></ruby>いです → <ruby>弱<rt>よわ</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>弱<rt>よわ</rt></ruby>いです → <ruby>弱<rt>よわ</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6460,11 +6460,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "い-прилагательное, настоящее/будущее, отрицание",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>明<rt>あか</rt></ruby>るい → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>明<rt>あか</rt></ruby>るい → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>明<rt>あか</rt></ruby>るいです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>明<rt>あか</rt></ruby>るいです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6489,8 +6489,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>明<rt>あか</rt></ruby>るい → <ruby>明<rt>あか</rt></ruby>るくない: конечное い заменяется на くない. Связка だ не нужна.",
-      "uz": "<ruby>明<rt>あか</rt></ruby>るい → <ruby>明<rt>あか</rt></ruby>るくない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>明<rt>あか</rt></ruby>るいです → <ruby>明<rt>あか</rt></ruby>るくない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>明<rt>あか</rt></ruby>るいです → <ruby>明<rt>あか</rt></ruby>るくない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6512,12 +6512,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>暗<rt>くら</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>暗<rt>くら</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>暗<rt>くら</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>暗<rt>くら</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6542,8 +6542,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>暗<rt>くら</rt></ruby>い → <ruby>暗<rt>くら</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>暗<rt>くら</rt></ruby>い → <ruby>暗<rt>くら</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>暗<rt>くら</rt></ruby>いです → <ruby>暗<rt>くら</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>暗<rt>くら</rt></ruby>いです → <ruby>暗<rt>くら</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6565,12 +6565,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>早<rt>はや</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>早<rt>はや</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>早<rt>はや</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>早<rt>はや</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6595,8 +6595,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>早<rt>はや</rt></ruby>い → <ruby>早<rt>はや</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>早<rt>はや</rt></ruby>い → <ruby>早<rt>はや</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>早<rt>はや</rt></ruby>いです → <ruby>早<rt>はや</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>早<rt>はや</rt></ruby>いです → <ruby>早<rt>はや</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6618,12 +6618,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>速<rt>はや</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>速<rt>はや</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>速<rt>はや</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>速<rt>はや</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6648,8 +6648,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>速<rt>はや</rt></ruby>い → <ruby>速<rt>はや</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>速<rt>はや</rt></ruby>い → <ruby>速<rt>はや</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>速<rt>はや</rt></ruby>いです → <ruby>速<rt>はや</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>速<rt>はや</rt></ruby>いです → <ruby>速<rt>はや</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6671,12 +6671,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>遠<rt>とお</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>遠<rt>とお</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>遠<rt>とお</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>遠<rt>とお</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6701,8 +6701,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>遠<rt>とお</rt></ruby>い → <ruby>遠<rt>とお</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>遠<rt>とお</rt></ruby>い → <ruby>遠<rt>とお</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>遠<rt>とお</rt></ruby>いです → <ruby>遠<rt>とお</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>遠<rt>とお</rt></ruby>いです → <ruby>遠<rt>とお</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6724,12 +6724,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>古<rt>ふる</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>古<rt>ふる</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>古<rt>ふる</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>古<rt>ふる</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6754,8 +6754,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>古<rt>ふる</rt></ruby>い → <ruby>古<rt>ふる</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>古<rt>ふる</rt></ruby>い → <ruby>古<rt>ふる</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>古<rt>ふる</rt></ruby>いです → <ruby>古<rt>ふる</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>古<rt>ふる</rt></ruby>いです → <ruby>古<rt>ふる</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6777,12 +6777,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>小<rt>ちい</rt></ruby>さい → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>小<rt>ちい</rt></ruby>さい → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>小<rt>ちい</rt></ruby>さいです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>小<rt>ちい</rt></ruby>さいです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6807,8 +6807,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>小<rt>ちい</rt></ruby>さい → <ruby>小<rt>ちい</rt></ruby>さくない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>小<rt>ちい</rt></ruby>さい → <ruby>小<rt>ちい</rt></ruby>さくない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>小<rt>ちい</rt></ruby>さいです → <ruby>小<rt>ちい</rt></ruby>さくない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>小<rt>ちい</rt></ruby>さいです → <ruby>小<rt>ちい</rt></ruby>さくない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6830,12 +6830,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>少<rt>すく</rt></ruby>ない → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>少<rt>すく</rt></ruby>ない → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>少<rt>すく</rt></ruby>ないです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>少<rt>すく</rt></ruby>ないです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6860,8 +6860,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>少<rt>すく</rt></ruby>ない → <ruby>少<rt>すく</rt></ruby>なくない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>少<rt>すく</rt></ruby>ない → <ruby>少<rt>すく</rt></ruby>なくない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>少<rt>すく</rt></ruby>ないです → <ruby>少<rt>すく</rt></ruby>なくない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>少<rt>すく</rt></ruby>ないです → <ruby>少<rt>すく</rt></ruby>なくない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6883,12 +6883,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>多<rt>おお</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>多<rt>おお</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>多<rt>おお</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>多<rt>おお</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6913,8 +6913,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>多<rt>おお</rt></ruby>い → <ruby>多<rt>おお</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>多<rt>おお</rt></ruby>い → <ruby>多<rt>おお</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>多<rt>おお</rt></ruby>いです → <ruby>多<rt>おお</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>多<rt>おお</rt></ruby>いです → <ruby>多<rt>おお</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6936,12 +6936,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, настоящее/будущее, отрицание",
+      "uz": "い-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>甘<rt>あま</rt></ruby>い → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>甘<rt>あま</rt></ruby>い → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>甘<rt>あま</rt></ruby>いです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>甘<rt>あま</rt></ruby>いです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -6966,8 +6966,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>甘<rt>あま</rt></ruby>い → <ruby>甘<rt>あま</rt></ruby>くない: конечное い заменяется на くない. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>甘<rt>あま</rt></ruby>い → <ruby>甘<rt>あま</rt></ruby>くない: oxirgi い o‘rniga くない keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>甘<rt>あま</rt></ruby>いです → <ruby>甘<rt>あま</rt></ruby>くない. Уберите です и замените последнее い на くない. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>甘<rt>あま</rt></ruby>いです → <ruby>甘<rt>あま</rt></ruby>くない. です ni olib tashlang va oxirgi い ni くない ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -6984,16 +6984,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "このカレーは____。"
+        "text": "そのとき、このカレーは____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>辛<rt>から</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>辛<rt>から</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>辛<rt>から</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>辛<rt>から</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7018,8 +7018,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>辛<rt>から</rt></ruby>い → <ruby>辛<rt>から</rt></ruby>かった: конечное い заменяется на かった. Связка だ не нужна.",
-      "uz": "<ruby>辛<rt>から</rt></ruby>い → <ruby>辛<rt>から</rt></ruby>かった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>辛<rt>から</rt></ruby>いです → <ruby>辛<rt>から</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>辛<rt>から</rt></ruby>いです → <ruby>辛<rt>から</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7036,16 +7036,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>薬<rt>くすり</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>薬<rt>くすり</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>苦<rt>にが</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>苦<rt>にが</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>苦<rt>にが</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>苦<rt>にが</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7070,8 +7070,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>苦<rt>にが</rt></ruby>い → <ruby>苦<rt>にが</rt></ruby>かった: конечное い заменяется на かった. Связка だ не нужна.",
-      "uz": "<ruby>苦<rt>にが</rt></ruby>い → <ruby>苦<rt>にが</rt></ruby>かった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>苦<rt>にが</rt></ruby>いです → <ruby>苦<rt>にが</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>苦<rt>にが</rt></ruby>いです → <ruby>苦<rt>にが</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7088,16 +7088,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>水<rt>みず</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>水<rt>みず</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>冷<rt>つめ</rt></ruby>たい → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>冷<rt>つめ</rt></ruby>たい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>冷<rt>つめ</rt></ruby>たいです → Прошедшее · Утверждение",
+      "uz": "<ruby>冷<rt>つめ</rt></ruby>たいです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7122,8 +7122,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>冷<rt>つめ</rt></ruby>たい → <ruby>冷<rt>つめ</rt></ruby>たかった: конечное い заменяется на かった. Связка だ не нужна.",
-      "uz": "<ruby>冷<rt>つめ</rt></ruby>たい → <ruby>冷<rt>つめ</rt></ruby>たかった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>冷<rt>つめ</rt></ruby>たいです → <ruby>冷<rt>つめ</rt></ruby>たかった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>冷<rt>つめ</rt></ruby>たいです → <ruby>冷<rt>つめ</rt></ruby>たかった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7140,16 +7140,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "このお<ruby>茶<rt>ちゃ</rt></ruby>は____。"
+        "text": "そのとき、このお<ruby>茶<rt>ちゃ</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, утверждение",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq"
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>熱<rt>あつ</rt></ruby>い → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>熱<rt>あつ</rt></ruby>い → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>熱<rt>あつ</rt></ruby>いです → Прошедшее · Утверждение",
+      "uz": "<ruby>熱<rt>あつ</rt></ruby>いです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7174,8 +7174,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>熱<rt>あつ</rt></ruby>い → <ruby>熱<rt>あつ</rt></ruby>かった: конечное い заменяется на かった. Связка だ не нужна.",
-      "uz": "<ruby>熱<rt>あつ</rt></ruby>い → <ruby>熱<rt>あつ</rt></ruby>かった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>熱<rt>あつ</rt></ruby>いです → <ruby>熱<rt>あつ</rt></ruby>かった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>熱<rt>あつ</rt></ruby>いです → <ruby>熱<rt>あつ</rt></ruby>かった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7197,12 +7197,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>暖<rt>あたた</rt></ruby>かい → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>暖<rt>あたた</rt></ruby>かい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>暖<rt>あたた</rt></ruby>かいです → Прошедшее · Утверждение",
+      "uz": "<ruby>暖<rt>あたた</rt></ruby>かいです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7227,8 +7227,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>暖<rt>あたた</rt></ruby>かい → <ruby>暖<rt>あたた</rt></ruby>かかった: конечное い заменяется на かった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>暖<rt>あたた</rt></ruby>かい → <ruby>暖<rt>あたた</rt></ruby>かかった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>暖<rt>あたた</rt></ruby>かいです → <ruby>暖<rt>あたた</rt></ruby>かかった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>暖<rt>あたた</rt></ruby>かいです → <ruby>暖<rt>あたた</rt></ruby>かかった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7250,12 +7250,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>涼<rt>すず</rt></ruby>しい → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>涼<rt>すず</rt></ruby>しい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>涼<rt>すず</rt></ruby>しいです → Прошедшее · Утверждение",
+      "uz": "<ruby>涼<rt>すず</rt></ruby>しいです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7280,8 +7280,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>涼<rt>すず</rt></ruby>しい → <ruby>涼<rt>すず</rt></ruby>しかった: конечное い заменяется на かった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>涼<rt>すず</rt></ruby>しい → <ruby>涼<rt>すず</rt></ruby>しかった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>涼<rt>すず</rt></ruby>しいです → <ruby>涼<rt>すず</rt></ruby>しかった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>涼<rt>すず</rt></ruby>しいです → <ruby>涼<rt>すず</rt></ruby>しかった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7303,12 +7303,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>美<rt>うつく</rt></ruby>しい → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>美<rt>うつく</rt></ruby>しい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>美<rt>うつく</rt></ruby>しいです → Прошедшее · Утверждение",
+      "uz": "<ruby>美<rt>うつく</rt></ruby>しいです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7333,8 +7333,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>美<rt>うつく</rt></ruby>しい → <ruby>美<rt>うつく</rt></ruby>しかった: конечное い заменяется на かった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>美<rt>うつく</rt></ruby>しい → <ruby>美<rt>うつく</rt></ruby>しかった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>美<rt>うつく</rt></ruby>しいです → <ruby>美<rt>うつく</rt></ruby>しかった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>美<rt>うつく</rt></ruby>しいです → <ruby>美<rt>うつく</rt></ruby>しかった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7356,12 +7356,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, прошедшее, утверждение",
+      "uz": "い-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>優<rt>やさ</rt></ruby>しい → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>優<rt>やさ</rt></ruby>しい → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>優<rt>やさ</rt></ruby>しいです → Прошедшее · Утверждение",
+      "uz": "<ruby>優<rt>やさ</rt></ruby>しいです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -7386,8 +7386,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>優<rt>やさ</rt></ruby>しい → <ruby>優<rt>やさ</rt></ruby>しかった: конечное い заменяется на かった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>優<rt>やさ</rt></ruby>しい → <ruby>優<rt>やさ</rt></ruby>しかった: oxirgi い o‘rniga かった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>優<rt>やさ</rt></ruby>しいです → <ruby>優<rt>やさ</rt></ruby>しかった. Уберите です и замените последнее い на かった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>優<rt>やさ</rt></ruby>しいです → <ruby>優<rt>やさ</rt></ruby>しかった. です ni olib tashlang va oxirgi い ni かった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7404,16 +7404,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>先生<rt>せんせい</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>先生<rt>せんせい</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>厳<rt>きび</rt></ruby>しい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>厳<rt>きび</rt></ruby>しい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>厳<rt>きび</rt></ruby>しいです → Прошедшее · Отрицание",
+      "uz": "<ruby>厳<rt>きび</rt></ruby>しいです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7438,8 +7438,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>厳<rt>きび</rt></ruby>しい → <ruby>厳<rt>きび</rt></ruby>しくなかった: конечное い заменяется на くなかった. Связка だ не нужна.",
-      "uz": "<ruby>厳<rt>きび</rt></ruby>しい → <ruby>厳<rt>きび</rt></ruby>しくなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>厳<rt>きび</rt></ruby>しいです → <ruby>厳<rt>きび</rt></ruby>しくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>厳<rt>きび</rt></ruby>しいです → <ruby>厳<rt>きび</rt></ruby>しくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7456,16 +7456,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>私<rt>わたし</rt></ruby>は____。"
+        "text": "そのとき、<ruby>私<rt>わたし</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>眠<rt>ねむ</rt></ruby>い → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>眠<rt>ねむ</rt></ruby>い → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>眠<rt>ねむ</rt></ruby>いです → Прошедшее · Отрицание",
+      "uz": "<ruby>眠<rt>ねむ</rt></ruby>いです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7490,8 +7490,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>眠<rt>ねむ</rt></ruby>い → <ruby>眠<rt>ねむ</rt></ruby>くなかった: конечное い заменяется на くなかった. Связка だ не нужна.",
-      "uz": "<ruby>眠<rt>ねむ</rt></ruby>い → <ruby>眠<rt>ねむ</rt></ruby>くなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>眠<rt>ねむ</rt></ruby>いです → <ruby>眠<rt>ねむ</rt></ruby>くなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>眠<rt>ねむ</rt></ruby>いです → <ruby>眠<rt>ねむ</rt></ruby>くなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7508,16 +7508,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>足<rt>あし</rt></ruby>が____。"
+        "text": "そのとき、<ruby>足<rt>あし</rt></ruby>が____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>痛<rt>いた</rt></ruby>い → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>痛<rt>いた</rt></ruby>い → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>痛<rt>いた</rt></ruby>いです → Прошедшее · Отрицание",
+      "uz": "<ruby>痛<rt>いた</rt></ruby>いです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7542,8 +7542,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>痛<rt>いた</rt></ruby>い → <ruby>痛<rt>いた</rt></ruby>くなかった: конечное い заменяется на くなかった. Связка だ не нужна.",
-      "uz": "<ruby>痛<rt>いた</rt></ruby>い → <ruby>痛<rt>いた</rt></ruby>くなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>痛<rt>いた</rt></ruby>いです → <ruby>痛<rt>いた</rt></ruby>くなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>痛<rt>いた</rt></ruby>いです → <ruby>痛<rt>いた</rt></ruby>くなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7560,16 +7560,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>映画<rt>えいが</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>映画<rt>えいが</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>怖<rt>こわ</rt></ruby>い → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>怖<rt>こわ</rt></ruby>い → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>怖<rt>こわ</rt></ruby>いです → Прошедшее · Отрицание",
+      "uz": "<ruby>怖<rt>こわ</rt></ruby>いです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7594,8 +7594,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>怖<rt>こわ</rt></ruby>い → <ruby>怖<rt>こわ</rt></ruby>くなかった: конечное い заменяется на くなかった. Связка だ не нужна.",
-      "uz": "<ruby>怖<rt>こわ</rt></ruby>い → <ruby>怖<rt>こわ</rt></ruby>くなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>怖<rt>こわ</rt></ruby>いです → <ruby>怖<rt>こわ</rt></ruby>くなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>怖<rt>こわ</rt></ruby>いです → <ruby>怖<rt>こわ</rt></ruby>くなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7612,16 +7612,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>一人<rt>ひとり</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>は____。"
+        "text": "そのとき、<ruby>一人<rt>ひとり</rt></ruby>の<ruby>生活<rt>せいかつ</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "い-прилагательное, прошедшее, отрицание",
-      "uz": "I-sifat, o‘tgan zamon, inkor"
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>寂<rt>さび</rt></ruby>しい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>寂<rt>さび</rt></ruby>しい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>寂<rt>さび</rt></ruby>しいです → Прошедшее · Отрицание",
+      "uz": "<ruby>寂<rt>さび</rt></ruby>しいです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7646,8 +7646,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>寂<rt>さび</rt></ruby>しい → <ruby>寂<rt>さび</rt></ruby>しくなかった: конечное い заменяется на くなかった. Связка だ не нужна.",
-      "uz": "<ruby>寂<rt>さび</rt></ruby>しい → <ruby>寂<rt>さび</rt></ruby>しくなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi."
+      "ru": "<ruby>寂<rt>さび</rt></ruby>しいです → <ruby>寂<rt>さび</rt></ruby>しくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>寂<rt>さび</rt></ruby>しいです → <ruby>寂<rt>さび</rt></ruby>しくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7659,22 +7659,21 @@ const questionSpecs = [
     "polarity": "negative",
     "tags": [
       "past",
-      "negative",
-      "quotation"
+      "negative"
     ],
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>彼女<rt>かのじょ</rt></ruby>はあの<ruby>知<rt>し</rt></ruby>らせを<ruby>聞<rt>き</rt></ruby>いても____と<ruby>聞<rt>き</rt></ruby>いた。"
+        "text": "あの<ruby>知<rt>し</rt></ruby>らせを<ruby>聞<rt>き</rt></ruby>いても、<ruby>私<rt>わたし</rt></ruby>は____。"
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "I-sifat, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "い-прилагательное, прошедшее, отрицание",
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>嬉<rt>うれ</rt></ruby>しい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>嬉<rt>うれ</rt></ruby>しい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>嬉<rt>うれ</rt></ruby>しいです → Прошедшее · Отрицание",
+      "uz": "<ruby>嬉<rt>うれ</rt></ruby>しいです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7699,8 +7698,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>嬉<rt>うれ</rt></ruby>しい → <ruby>嬉<rt>うれ</rt></ruby>しくなかった: конечное い заменяется на くなかった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>嬉<rt>うれ</rt></ruby>しい → <ruby>嬉<rt>うれ</rt></ruby>しくなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>嬉<rt>うれ</rt></ruby>しいです → <ruby>嬉<rt>うれ</rt></ruby>しくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>嬉<rt>うれ</rt></ruby>しいです → <ruby>嬉<rt>うれ</rt></ruby>しくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7722,12 +7721,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, прошедшее, отрицание",
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>悲<rt>かな</rt></ruby>しい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>悲<rt>かな</rt></ruby>しい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>悲<rt>かな</rt></ruby>しいです → Прошедшее · Отрицание",
+      "uz": "<ruby>悲<rt>かな</rt></ruby>しいです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7752,8 +7751,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>悲<rt>かな</rt></ruby>しい → <ruby>悲<rt>かな</rt></ruby>しくなかった: конечное い заменяется на くなかった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>悲<rt>かな</rt></ruby>しい → <ruby>悲<rt>かな</rt></ruby>しくなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>悲<rt>かな</rt></ruby>しいです → <ruby>悲<rt>かな</rt></ruby>しくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>悲<rt>かな</rt></ruby>しいです → <ruby>悲<rt>かな</rt></ruby>しくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7775,12 +7774,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, прошедшее, отрицание",
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>柔<rt>やわ</rt></ruby>らかい → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>柔<rt>やわ</rt></ruby>らかい → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>柔<rt>やわ</rt></ruby>らかいです → Прошедшее · Отрицание",
+      "uz": "<ruby>柔<rt>やわ</rt></ruby>らかいです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7805,8 +7804,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>柔<rt>やわ</rt></ruby>らかい → <ruby>柔<rt>やわ</rt></ruby>らかくなかった: конечное い заменяется на くなかった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>柔<rt>やわ</rt></ruby>らかい → <ruby>柔<rt>やわ</rt></ruby>らかくなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>柔<rt>やわ</rt></ruby>らかいです → <ruby>柔<rt>やわ</rt></ruby>らかくなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>柔<rt>やわ</rt></ruby>らかいです → <ruby>柔<rt>やわ</rt></ruby>らかくなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7828,12 +7827,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, прошедшее, отрицание",
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>硬<rt>かた</rt></ruby>い → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>硬<rt>かた</rt></ruby>い → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>硬<rt>かた</rt></ruby>いです → Прошедшее · Отрицание",
+      "uz": "<ruby>硬<rt>かた</rt></ruby>いです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7858,8 +7857,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>硬<rt>かた</rt></ruby>い → <ruby>硬<rt>かた</rt></ruby>くなかった: конечное い заменяется на くなかった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>硬<rt>かた</rt></ruby>い → <ruby>硬<rt>かた</rt></ruby>くなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>硬<rt>かた</rt></ruby>いです → <ruby>硬<rt>かた</rt></ruby>くなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>硬<rt>かた</rt></ruby>いです → <ruby>硬<rt>かた</rt></ruby>くなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7881,12 +7880,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "い-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "I-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "い-прилагательное, прошедшее, отрицание",
+      "uz": "い-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>丸<rt>まる</rt></ruby>い → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>丸<rt>まる</rt></ruby>い → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>丸<rt>まる</rt></ruby>いです → Прошедшее · Отрицание",
+      "uz": "<ruby>丸<rt>まる</rt></ruby>いです → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -7911,8 +7910,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>丸<rt>まる</rt></ruby>い → <ruby>丸<rt>まる</rt></ruby>くなかった: конечное い заменяется на くなかった. Связка だ не нужна. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>丸<rt>まる</rt></ruby>い → <ruby>丸<rt>まる</rt></ruby>くなかった: oxirgi い o‘rniga くなかった keladi. だ bog‘lamasi qo‘shilmaydi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>丸<rt>まる</rt></ruby>いです → <ruby>丸<rt>まる</rt></ruby>くなかった. Уберите です и замените последнее い на くなかった. После い-прилагательного だ не добавляем.",
+      "uz": "<ruby>丸<rt>まる</rt></ruby>いです → <ruby>丸<rt>まる</rt></ruby>くなかった. です ni olib tashlang va oxirgi い ni くなかった ga almashtiring. い-sifatdan keyin だ qo‘shilmaydi."
     }
   },
   {
@@ -7934,11 +7933,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, утверждение",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>丈夫<rt>じょうぶ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>丈夫<rt>じょうぶ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>丈夫<rt>じょうぶ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>丈夫<rt>じょうぶ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -7963,8 +7962,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>丈夫<rt>じょうぶ</rt></ruby> → <ruby>丈夫<rt>じょうぶ</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ.",
-      "uz": "<ruby>丈夫<rt>じょうぶ</rt></ruby> → <ruby>丈夫<rt>じょうぶ</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>丈夫<rt>じょうぶ</rt></ruby>です → <ruby>丈夫<rt>じょうぶ</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>丈夫<rt>じょうぶ</rt></ruby>です → <ruby>丈夫<rt>じょうぶ</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -7986,11 +7985,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, утверждение",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq"
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>大変<rt>たいへん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>大変<rt>たいへん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>大変<rt>たいへん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>大変<rt>たいへん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8015,8 +8014,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>大変<rt>たいへん</rt></ruby> → <ruby>大変<rt>たいへん</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ.",
-      "uz": "<ruby>大変<rt>たいへん</rt></ruby> → <ruby>大変<rt>たいへん</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>大変<rt>たいへん</rt></ruby>です → <ruby>大変<rt>たいへん</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>大変<rt>たいへん</rt></ruby>です → <ruby>大変<rt>たいへん</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8038,12 +8037,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>大事<rt>だいじ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>大事<rt>だいじ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>大事<rt>だいじ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>大事<rt>だいじ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8068,8 +8067,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>大事<rt>だいじ</rt></ruby> → <ruby>大事<rt>だいじ</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>大事<rt>だいじ</rt></ruby> → <ruby>大事<rt>だいじ</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>大事<rt>だいじ</rt></ruby>です → <ruby>大事<rt>だいじ</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>大事<rt>だいじ</rt></ruby>です → <ruby>大事<rt>だいじ</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8091,12 +8090,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>丁寧<rt>ていねい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>丁寧<rt>ていねい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>丁寧<rt>ていねい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>丁寧<rt>ていねい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8121,8 +8120,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>丁寧<rt>ていねい</rt></ruby> → <ruby>丁寧<rt>ていねい</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>丁寧<rt>ていねい</rt></ruby> → <ruby>丁寧<rt>ていねい</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>丁寧<rt>ていねい</rt></ruby>です → <ruby>丁寧<rt>ていねい</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>丁寧<rt>ていねい</rt></ruby>です → <ruby>丁寧<rt>ていねい</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8144,12 +8143,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>失礼<rt>しつれい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>失礼<rt>しつれい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>失礼<rt>しつれい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>失礼<rt>しつれい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8174,8 +8173,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>失礼<rt>しつれい</rt></ruby> → <ruby>失礼<rt>しつれい</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>失礼<rt>しつれい</rt></ruby> → <ruby>失礼<rt>しつれい</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>失礼<rt>しつれい</rt></ruby>です → <ruby>失礼<rt>しつれい</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>失礼<rt>しつれい</rt></ruby>です → <ruby>失礼<rt>しつれい</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8197,12 +8196,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>複雑<rt>ふくざつ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>複雑<rt>ふくざつ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>複雑<rt>ふくざつ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>複雑<rt>ふくざつ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8227,8 +8226,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>複雑<rt>ふくざつ</rt></ruby> → <ruby>複雑<rt>ふくざつ</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>複雑<rt>ふくざつ</rt></ruby> → <ruby>複雑<rt>ふくざつ</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>複雑<rt>ふくざつ</rt></ruby>です → <ruby>複雑<rt>ふくざつ</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>複雑<rt>ふくざつ</rt></ruby>です → <ruby>複雑<rt>ふくざつ</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8250,12 +8249,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>不便<rt>ふべん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>不便<rt>ふべん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>不便<rt>ふべん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>不便<rt>ふべん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8280,8 +8279,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>不便<rt>ふべん</rt></ruby> → <ruby>不便<rt>ふべん</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>不便<rt>ふべん</rt></ruby> → <ruby>不便<rt>ふべん</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>不便<rt>ふべん</rt></ruby>です → <ruby>不便<rt>ふべん</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>不便<rt>ふべん</rt></ruby>です → <ruby>不便<rt>ふべん</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8303,12 +8302,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>不安<rt>ふあん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>不安<rt>ふあん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>不安<rt>ふあん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>不安<rt>ふあん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8333,8 +8332,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>不安<rt>ふあん</rt></ruby> → <ruby>不安<rt>ふあん</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>不安<rt>ふあん</rt></ruby> → <ruby>不安<rt>ふあん</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>不安<rt>ふあん</rt></ruby>です → <ruby>不安<rt>ふあん</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>不安<rt>ふあん</rt></ruby>です → <ruby>不安<rt>ふあん</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8356,12 +8355,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>残念<rt>ざんねん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>残念<rt>ざんねん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>残念<rt>ざんねん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>残念<rt>ざんねん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8386,8 +8385,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>残念<rt>ざんねん</rt></ruby> → <ruby>残念<rt>ざんねん</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>残念<rt>ざんねん</rt></ruby> → <ruby>残念<rt>ざんねん</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>残念<rt>ざんねん</rt></ruby>です → <ruby>残念<rt>ざんねん</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>残念<rt>ざんねん</rt></ruby>です → <ruby>残念<rt>ざんねん</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8399,22 +8398,21 @@ const questionSpecs = [
     "polarity": "affirmative",
     "tags": [
       "present",
-      "affirmative",
-      "quotation"
+      "affirmative"
     ],
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>台風<rt>たいふう</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>づいているから、みんな<ruby>明日<rt>あした</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>が____と<ruby>思<rt>おも</rt></ruby>う。"
+        "text": "<ruby>台風<rt>たいふう</rt></ruby>が<ruby>近<rt>ちか</rt></ruby>づいているから、<ruby>明日<rt>あした</rt></ruby>の<ruby>天気<rt>てんき</rt></ruby>が____。"
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, утверждение",
+      "uz": "な-sifat, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>心配<rt>しんぱい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>心配<rt>しんぱい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>心配<rt>しんぱい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>心配<rt>しんぱい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -8439,8 +8437,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>心配<rt>しんぱい</rt></ruby> → <ruby>心配<rt>しんぱい</rt></ruby>だ. な-прилагательное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>心配<rt>しんぱい</rt></ruby> → <ruby>心配<rt>しんぱい</rt></ruby>だ. Na-sifat asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>心配<rt>しんぱい</rt></ruby>です → <ruby>心配<rt>しんぱい</rt></ruby>だ. У な-прилагательного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>心配<rt>しんぱい</rt></ruby>です → <ruby>心配<rt>しんぱい</rt></ruby>だ. な-sifatdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8462,11 +8460,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, отрицание",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>熱心<rt>ねっしん</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>熱心<rt>ねっしん</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>熱心<rt>ねっしん</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>熱心<rt>ねっしん</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8491,8 +8489,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>熱心<rt>ねっしん</rt></ruby> → <ruby>熱心<rt>ねっしん</rt></ruby>じゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>熱心<rt>ねっしん</rt></ruby> → <ruby>熱心<rt>ねっしん</rt></ruby>じゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>熱心<rt>ねっしん</rt></ruby>です → <ruby>熱心<rt>ねっしん</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>熱心<rt>ねっしん</rt></ruby>です → <ruby>熱心<rt>ねっしん</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8514,11 +8512,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, отрицание",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>得意<rt>とくい</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>得意<rt>とくい</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>得意<rt>とくい</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>得意<rt>とくい</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8543,8 +8541,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>得意<rt>とくい</rt></ruby> → <ruby>得意<rt>とくい</rt></ruby>じゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>得意<rt>とくい</rt></ruby> → <ruby>得意<rt>とくい</rt></ruby>じゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>得意<rt>とくい</rt></ruby>です → <ruby>得意<rt>とくい</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>得意<rt>とくい</rt></ruby>です → <ruby>得意<rt>とくい</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8566,11 +8564,11 @@ const questionSpecs = [
     ],
     "context": {
       "ru": "な-прилагательное, настоящее/будущее, отрицание",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor"
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>苦手<rt>にがて</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>苦手<rt>にがて</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>苦手<rt>にがて</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>苦手<rt>にがて</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8595,8 +8593,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>苦手<rt>にがて</rt></ruby> → <ruby>苦手<rt>にがて</rt></ruby>じゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>苦手<rt>にがて</rt></ruby> → <ruby>苦手<rt>にがて</rt></ruby>じゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>苦手<rt>にがて</rt></ruby>です → <ruby>苦手<rt>にがて</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>苦手<rt>にがて</rt></ruby>です → <ruby>苦手<rt>にがて</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8618,12 +8616,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>健康<rt>けんこう</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>健康<rt>けんこう</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>健康<rt>けんこう</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>健康<rt>けんこう</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8648,8 +8646,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>健康<rt>けんこう</rt></ruby> → <ruby>健康<rt>けんこう</rt></ruby>じゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>健康<rt>けんこう</rt></ruby> → <ruby>健康<rt>けんこう</rt></ruby>じゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>健康<rt>けんこう</rt></ruby>です → <ruby>健康<rt>けんこう</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>健康<rt>けんこう</rt></ruby>です → <ruby>健康<rt>けんこう</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8671,12 +8669,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>豊<rt>ゆた</rt></ruby>か → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>豊<rt>ゆた</rt></ruby>か → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>豊<rt>ゆた</rt></ruby>かです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>豊<rt>ゆた</rt></ruby>かです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8701,8 +8699,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>豊<rt>ゆた</rt></ruby>か → <ruby>豊<rt>ゆた</rt></ruby>かじゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>豊<rt>ゆた</rt></ruby>か → <ruby>豊<rt>ゆた</rt></ruby>かじゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>豊<rt>ゆた</rt></ruby>かです → <ruby>豊<rt>ゆた</rt></ruby>かじゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>豊<rt>ゆた</rt></ruby>かです → <ruby>豊<rt>ゆた</rt></ruby>かじゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8724,12 +8722,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "にぎやか → Настоящее/Будущее · Отрицание",
-      "uz": "にぎやか → Hozirgi/Kelasi · Inkor"
+      "ru": "にぎやかです → Настоящее/Будущее · Отрицание",
+      "uz": "にぎやかです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8754,8 +8752,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "にぎやか → にぎやかじゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "にぎやか → にぎやかじゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "にぎやかです → にぎやかじゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "にぎやかです → にぎやかじゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8777,12 +8775,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>穏<rt>おだ</rt></ruby>やか → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>穏<rt>おだ</rt></ruby>やか → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>穏<rt>おだ</rt></ruby>やかです → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>穏<rt>おだ</rt></ruby>やかです → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8807,8 +8805,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>穏<rt>おだ</rt></ruby>やか → <ruby>穏<rt>おだ</rt></ruby>やかじゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>穏<rt>おだ</rt></ruby>やか → <ruby>穏<rt>おだ</rt></ruby>やかじゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>穏<rt>おだ</rt></ruby>やかです → <ruby>穏<rt>おだ</rt></ruby>やかじゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>穏<rt>おだ</rt></ruby>やかです → <ruby>穏<rt>おだ</rt></ruby>やかじゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8830,12 +8828,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>新鮮<rt>しんせん</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>新鮮<rt>しんせん</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>新鮮<rt>しんせん</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>新鮮<rt>しんせん</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8860,8 +8858,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>新鮮<rt>しんせん</rt></ruby> → <ruby>新鮮<rt>しんせん</rt></ruby>じゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>新鮮<rt>しんせん</rt></ruby> → <ruby>新鮮<rt>しんせん</rt></ruby>じゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>新鮮<rt>しんせん</rt></ruby>です → <ruby>新鮮<rt>しんせん</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>新鮮<rt>しんせん</rt></ruby>です → <ruby>新鮮<rt>しんせん</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8883,12 +8881,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, настоящее/будущее, отрицание",
+      "uz": "な-sifat, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>正確<rt>せいかく</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>正確<rt>せいかく</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>正確<rt>せいかく</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>正確<rt>せいかく</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -8913,8 +8911,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>正確<rt>せいかく</rt></ruby> → <ruby>正確<rt>せいかく</rt></ruby>じゃない. な-прилагательное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>正確<rt>せいかく</rt></ruby> → <ruby>正確<rt>せいかく</rt></ruby>じゃない. Na-sifat asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>正確<rt>せいかく</rt></ruby>です → <ruby>正確<rt>せいかく</rt></ruby>じゃない. У な-прилагательного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>正確<rt>せいかく</rt></ruby>です → <ruby>正確<rt>せいかく</rt></ruby>じゃない. な-sifatdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8931,16 +8929,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>日<rt>ひ</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>日<rt>ひ</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, утверждение",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq"
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>特別<rt>とくべつ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>特別<rt>とくべつ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>特別<rt>とくべつ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>特別<rt>とくべつ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -8965,8 +8963,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>特別<rt>とくべつ</rt></ruby> → <ruby>特別<rt>とくべつ</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>特別<rt>とくべつ</rt></ruby> → <ruby>特別<rt>とくべつ</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>特別<rt>とくべつ</rt></ruby>です → <ruby>特別<rt>とくべつ</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>特別<rt>とくべつ</rt></ruby>です → <ruby>特別<rt>とくべつ</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -8983,16 +8981,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>町<rt>まち</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>町<rt>まち</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, утверждение",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq"
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>平和<rt>へいわ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>平和<rt>へいわ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>平和<rt>へいわ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>平和<rt>へいわ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9017,8 +9015,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>平和<rt>へいわ</rt></ruby> → <ruby>平和<rt>へいわ</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>平和<rt>へいわ</rt></ruby> → <ruby>平和<rt>へいわ</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>平和<rt>へいわ</rt></ruby>です → <ruby>平和<rt>へいわ</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>平和<rt>へいわ</rt></ruby>です → <ruby>平和<rt>へいわ</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9035,16 +9033,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>答<rt>こた</rt></ruby>えは____。"
+        "text": "そのとき、この<ruby>答<rt>こた</rt></ruby>えは____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, утверждение",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq"
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>適切<rt>てきせつ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>適切<rt>てきせつ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>適切<rt>てきせつ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>適切<rt>てきせつ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9069,8 +9067,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>適切<rt>てきせつ</rt></ruby> → <ruby>適切<rt>てきせつ</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>適切<rt>てきせつ</rt></ruby> → <ruby>適切<rt>てきせつ</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>適切<rt>てきせつ</rt></ruby>です → <ruby>適切<rt>てきせつ</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>適切<rt>てきせつ</rt></ruby>です → <ruby>適切<rt>てきせつ</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9087,16 +9085,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>量<rt>りょう</rt></ruby>で____。"
+        "text": "そのとき、この<ruby>量<rt>りょう</rt></ruby>で____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, утверждение",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq"
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>十分<rt>じゅうぶん</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>十分<rt>じゅうぶん</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>十分<rt>じゅうぶん</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>十分<rt>じゅうぶん</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9121,8 +9119,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>十分<rt>じゅうぶん</rt></ruby> → <ruby>十分<rt>じゅうぶん</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>十分<rt>じゅうぶん</rt></ruby> → <ruby>十分<rt>じゅうぶん</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>十分<rt>じゅうぶん</rt></ruby>です → <ruby>十分<rt>じゅうぶん</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>十分<rt>じゅうぶん</rt></ruby>です → <ruby>十分<rt>じゅうぶん</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9144,12 +9142,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>急<rt>きゅう</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>急<rt>きゅう</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>急<rt>きゅう</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>急<rt>きゅう</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9174,8 +9172,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>急<rt>きゅう</rt></ruby> → <ruby>急<rt>きゅう</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>急<rt>きゅう</rt></ruby> → <ruby>急<rt>きゅう</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>急<rt>きゅう</rt></ruby>です → <ruby>急<rt>きゅう</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>急<rt>きゅう</rt></ruby>です → <ruby>急<rt>きゅう</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9197,12 +9195,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>立派<rt>りっぱ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>立派<rt>りっぱ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>立派<rt>りっぱ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>立派<rt>りっぱ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9227,8 +9225,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>立派<rt>りっぱ</rt></ruby> → <ruby>立派<rt>りっぱ</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>立派<rt>りっぱ</rt></ruby> → <ruby>立派<rt>りっぱ</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>立派<rt>りっぱ</rt></ruby>です → <ruby>立派<rt>りっぱ</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>立派<rt>りっぱ</rt></ruby>です → <ruby>立派<rt>りっぱ</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9250,12 +9248,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>正直<rt>しょうじき</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>正直<rt>しょうじき</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>正直<rt>しょうじき</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>正直<rt>しょうじき</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9280,8 +9278,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>正直<rt>しょうじき</rt></ruby> → <ruby>正直<rt>しょうじき</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>正直<rt>しょうじき</rt></ruby> → <ruby>正直<rt>しょうじき</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>正直<rt>しょうじき</rt></ruby>です → <ruby>正直<rt>しょうじき</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>正直<rt>しょうじき</rt></ruby>です → <ruby>正直<rt>しょうじき</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9303,12 +9301,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>素直<rt>すなお</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>素直<rt>すなお</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>素直<rt>すなお</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>素直<rt>すなお</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9333,8 +9331,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>素直<rt>すなお</rt></ruby> → <ruby>素直<rt>すなお</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>素直<rt>すなお</rt></ruby> → <ruby>素直<rt>すなお</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>素直<rt>すなお</rt></ruby>です → <ruby>素直<rt>すなお</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>素直<rt>すなお</rt></ruby>です → <ruby>素直<rt>すなお</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9356,12 +9354,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>慎重<rt>しんちょう</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>慎重<rt>しんちょう</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>慎重<rt>しんちょう</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>慎重<rt>しんちょう</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9386,8 +9384,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>慎重<rt>しんちょう</rt></ruby> → <ruby>慎重<rt>しんちょう</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>慎重<rt>しんちょう</rt></ruby> → <ruby>慎重<rt>しんちょう</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>慎重<rt>しんちょう</rt></ruby>です → <ruby>慎重<rt>しんちょう</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>慎重<rt>しんちょう</rt></ruby>です → <ruby>慎重<rt>しんちょう</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9409,12 +9407,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, утверждение",
+      "uz": "な-sifat, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>積極的<rt>せっきょくてき</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>積極的<rt>せっきょくてき</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>積極的<rt>せっきょくてき</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>積極的<rt>せっきょくてき</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -9439,8 +9437,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>積極的<rt>せっきょくてき</rt></ruby> → <ruby>積極的<rt>せっきょくてき</rt></ruby>だった. な-прилагательное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>積極的<rt>せっきょくてき</rt></ruby> → <ruby>積極的<rt>せっきょくてき</rt></ruby>だった. Na-sifat asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>積極的<rt>せっきょくてき</rt></ruby>です → <ruby>積極的<rt>せっきょくてき</rt></ruby>だった. У な-прилагательного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>積極的<rt>せっきょくてき</rt></ruby>です → <ruby>積極的<rt>せっきょくてき</rt></ruby>だった. な-sifatdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9457,16 +9455,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>学生<rt>がくせい</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>学生<rt>がくせい</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>消極的<rt>しょうきょくてき</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>消極的<rt>しょうきょくてき</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>消極的<rt>しょうきょくてき</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>消極的<rt>しょうきょくてき</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9491,8 +9489,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>消極的<rt>しょうきょくてき</rt></ruby> → <ruby>消極的<rt>しょうきょくてき</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>消極的<rt>しょうきょくてき</rt></ruby> → <ruby>消極的<rt>しょうきょくてき</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>消極的<rt>しょうきょくてき</rt></ruby>です → <ruby>消極的<rt>しょうきょくてき</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>消極的<rt>しょうきょくてき</rt></ruby>です → <ruby>消極的<rt>しょうきょくてき</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9509,16 +9507,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>方法<rt>ほうほう</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>方法<rt>ほうほう</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>合理的<rt>ごうりてき</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>合理的<rt>ごうりてき</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>合理的<rt>ごうりてき</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>合理的<rt>ごうりてき</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9543,8 +9541,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>合理的<rt>ごうりてき</rt></ruby> → <ruby>合理的<rt>ごうりてき</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>合理的<rt>ごうりてき</rt></ruby> → <ruby>合理的<rt>ごうりてき</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>合理的<rt>ごうりてき</rt></ruby>です → <ruby>合理的<rt>ごうりてき</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>合理的<rt>ごうりてき</rt></ruby>です → <ruby>合理的<rt>ごうりてき</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9561,16 +9559,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>説明<rt>せつめい</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>説明<rt>せつめい</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>具体的<rt>ぐたいてき</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>具体的<rt>ぐたいてき</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>具体的<rt>ぐたいてき</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>具体的<rt>ぐたいてき</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9595,8 +9593,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>具体的<rt>ぐたいてき</rt></ruby> → <ruby>具体的<rt>ぐたいてき</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>具体的<rt>ぐたいてき</rt></ruby> → <ruby>具体的<rt>ぐたいてき</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>具体的<rt>ぐたいてき</rt></ruby>です → <ruby>具体的<rt>ぐたいてき</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>具体的<rt>ぐたいてき</rt></ruby>です → <ruby>具体的<rt>ぐたいてき</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9613,16 +9611,16 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>問題<rt>もんだい</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>問題<rt>もんだい</rt></ruby>は____。"
       }
     ],
     "context": {
       "ru": "な-прилагательное, прошедшее, отрицание",
-      "uz": "Na-sifat, o‘tgan zamon, inkor"
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>基本的<rt>きほんてき</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>基本的<rt>きほんてき</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>基本的<rt>きほんてき</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>基本的<rt>きほんてき</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9647,8 +9645,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>基本的<rt>きほんてき</rt></ruby> → <ruby>基本的<rt>きほんてき</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>基本的<rt>きほんてき</rt></ruby> → <ruby>基本的<rt>きほんてき</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>基本的<rt>きほんてき</rt></ruby>です → <ruby>基本的<rt>きほんてき</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>基本的<rt>きほんてき</rt></ruby>です → <ruby>基本的<rt>きほんてき</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9670,12 +9668,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>重要<rt>じゅうよう</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>重要<rt>じゅうよう</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>重要<rt>じゅうよう</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>重要<rt>じゅうよう</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9700,8 +9698,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>重要<rt>じゅうよう</rt></ruby> → <ruby>重要<rt>じゅうよう</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>重要<rt>じゅうよう</rt></ruby> → <ruby>重要<rt>じゅうよう</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>重要<rt>じゅうよう</rt></ruby>です → <ruby>重要<rt>じゅうよう</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>重要<rt>じゅうよう</rt></ruby>です → <ruby>重要<rt>じゅうよう</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9723,12 +9721,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>退屈<rt>たいくつ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>退屈<rt>たいくつ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>退屈<rt>たいくつ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>退屈<rt>たいくつ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9753,8 +9751,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>退屈<rt>たいくつ</rt></ruby> → <ruby>退屈<rt>たいくつ</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>退屈<rt>たいくつ</rt></ruby> → <ruby>退屈<rt>たいくつ</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>退屈<rt>たいくつ</rt></ruby>です → <ruby>退屈<rt>たいくつ</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>退屈<rt>たいくつ</rt></ruby>です → <ruby>退屈<rt>たいくつ</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9776,12 +9774,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>快適<rt>かいてき</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>快適<rt>かいてき</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>快適<rt>かいてき</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>快適<rt>かいてき</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9806,8 +9804,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>快適<rt>かいてき</rt></ruby> → <ruby>快適<rt>かいてき</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>快適<rt>かいてき</rt></ruby> → <ruby>快適<rt>かいてき</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>快適<rt>かいてき</rt></ruby>です → <ruby>快適<rt>かいてき</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>快適<rt>かいてき</rt></ruby>です → <ruby>快適<rt>かいてき</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9829,12 +9827,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>清潔<rt>せいけつ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>清潔<rt>せいけつ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>清潔<rt>せいけつ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>清潔<rt>せいけつ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9859,8 +9857,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>清潔<rt>せいけつ</rt></ruby> → <ruby>清潔<rt>せいけつ</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>清潔<rt>せいけつ</rt></ruby> → <ruby>清潔<rt>せいけつ</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>清潔<rt>せいけつ</rt></ruby>です → <ruby>清潔<rt>せいけつ</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>清潔<rt>せいけつ</rt></ruby>です → <ruby>清潔<rt>せいけつ</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9882,12 +9880,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>公平<rt>こうへい</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>公平<rt>こうへい</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>公平<rt>こうへい</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>公平<rt>こうへい</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9912,8 +9910,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>公平<rt>こうへい</rt></ruby> → <ruby>公平<rt>こうへい</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>公平<rt>こうへい</rt></ruby> → <ruby>公平<rt>こうへい</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>公平<rt>こうへい</rt></ruby>です → <ruby>公平<rt>こうへい</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>公平<rt>こうへい</rt></ruby>です → <ruby>公平<rt>こうへい</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9935,12 +9933,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>独特<rt>どくとく</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>独特<rt>どくとく</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>独特<rt>どくとく</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>独特<rt>どくとく</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -9965,8 +9963,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>独特<rt>どくとく</rt></ruby> → <ruby>独特<rt>どくとく</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>独特<rt>どくとく</rt></ruby> → <ruby>独特<rt>どくとく</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>独特<rt>どくとく</rt></ruby>です → <ruby>独特<rt>どくとく</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>独特<rt>どくとく</rt></ruby>です → <ruby>独特<rt>どくとく</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -9988,12 +9986,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "な-прилагательное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Na-sifat, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "な-прилагательное, прошедшее, отрицание",
+      "uz": "な-sifat, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>確実<rt>かくじつ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>確実<rt>かくじつ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>確実<rt>かくじつ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>確実<rt>かくじつ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -10018,8 +10016,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>確実<rt>かくじつ</rt></ruby> → <ruby>確実<rt>かくじつ</rt></ruby>じゃなかった. な-прилагательное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>確実<rt>かくじつ</rt></ruby> → <ruby>確実<rt>かくじつ</rt></ruby>じゃなかった. Na-sifat asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>確実<rt>かくじつ</rt></ruby>です → <ruby>確実<rt>かくじつ</rt></ruby>じゃなかった. У な-прилагательного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>確実<rt>かくじつ</rt></ruby>です → <ruby>確実<rt>かくじつ</rt></ruby>じゃなかった. な-sifatdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10044,8 +10042,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>会社員<rt>かいしゃいん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>会社員<rt>かいしゃいん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>会社員<rt>かいしゃいん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>会社員<rt>かいしゃいん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10070,8 +10068,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>会社員<rt>かいしゃいん</rt></ruby> → <ruby>会社員<rt>かいしゃいん</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ.",
-      "uz": "<ruby>会社員<rt>かいしゃいん</rt></ruby> → <ruby>会社員<rt>かいしゃいん</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>会社員<rt>かいしゃいん</rt></ruby>です → <ruby>会社員<rt>かいしゃいん</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>会社員<rt>かいしゃいん</rt></ruby>です → <ruby>会社員<rt>かいしゃいん</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10096,8 +10094,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>教師<rt>きょうし</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>教師<rt>きょうし</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>教師<rt>きょうし</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>教師<rt>きょうし</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10122,8 +10120,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>教師<rt>きょうし</rt></ruby> → <ruby>教師<rt>きょうし</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ.",
-      "uz": "<ruby>教師<rt>きょうし</rt></ruby> → <ruby>教師<rt>きょうし</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>教師<rt>きょうし</rt></ruby>です → <ruby>教師<rt>きょうし</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>教師<rt>きょうし</rt></ruby>です → <ruby>教師<rt>きょうし</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10148,8 +10146,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>看護師<rt>かんごし</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>看護師<rt>かんごし</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>看護師<rt>かんごし</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>看護師<rt>かんごし</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10174,8 +10172,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>看護師<rt>かんごし</rt></ruby> → <ruby>看護師<rt>かんごし</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ.",
-      "uz": "<ruby>看護師<rt>かんごし</rt></ruby> → <ruby>看護師<rt>かんごし</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>看護師<rt>かんごし</rt></ruby>です → <ruby>看護師<rt>かんごし</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>看護師<rt>かんごし</rt></ruby>です → <ruby>看護師<rt>かんごし</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10197,12 +10195,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10227,8 +10225,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby> → <ruby>研究者<rt>けんきゅうしゃ</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby> → <ruby>研究者<rt>けんきゅうしゃ</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>です → <ruby>研究者<rt>けんきゅうしゃ</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>研究者<rt>けんきゅうしゃ</rt></ruby>です → <ruby>研究者<rt>けんきゅうしゃ</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10250,12 +10248,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>歌手<rt>かしゅ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>歌手<rt>かしゅ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>歌手<rt>かしゅ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>歌手<rt>かしゅ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10280,8 +10278,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>歌手<rt>かしゅ</rt></ruby> → <ruby>歌手<rt>かしゅ</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>歌手<rt>かしゅ</rt></ruby> → <ruby>歌手<rt>かしゅ</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>歌手<rt>かしゅ</rt></ruby>です → <ruby>歌手<rt>かしゅ</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>歌手<rt>かしゅ</rt></ruby>です → <ruby>歌手<rt>かしゅ</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10303,12 +10301,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>作家<rt>さっか</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>作家<rt>さっか</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>作家<rt>さっか</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>作家<rt>さっか</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10333,8 +10331,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>作家<rt>さっか</rt></ruby> → <ruby>作家<rt>さっか</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>作家<rt>さっか</rt></ruby> → <ruby>作家<rt>さっか</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>作家<rt>さっか</rt></ruby>です → <ruby>作家<rt>さっか</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>作家<rt>さっか</rt></ruby>です → <ruby>作家<rt>さっか</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10356,12 +10354,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>料理人<rt>りょうりにん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>料理人<rt>りょうりにん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>料理人<rt>りょうりにん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>料理人<rt>りょうりにん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10386,8 +10384,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>料理人<rt>りょうりにん</rt></ruby> → <ruby>料理人<rt>りょうりにん</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>料理人<rt>りょうりにん</rt></ruby> → <ruby>料理人<rt>りょうりにん</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>料理人<rt>りょうりにん</rt></ruby>です → <ruby>料理人<rt>りょうりにん</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>料理人<rt>りょうりにん</rt></ruby>です → <ruby>料理人<rt>りょうりにん</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10409,12 +10407,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>運転手<rt>うんてんしゅ</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>運転手<rt>うんてんしゅ</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>運転手<rt>うんてんしゅ</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>運転手<rt>うんてんしゅ</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10439,8 +10437,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>運転手<rt>うんてんしゅ</rt></ruby> → <ruby>運転手<rt>うんてんしゅ</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>運転手<rt>うんてんしゅ</rt></ruby> → <ruby>運転手<rt>うんてんしゅ</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>運転手<rt>うんてんしゅ</rt></ruby>です → <ruby>運転手<rt>うんてんしゅ</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>運転手<rt>うんてんしゅ</rt></ruby>です → <ruby>運転手<rt>うんてんしゅ</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10462,12 +10460,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>店員<rt>てんいん</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>店員<rt>てんいん</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>店員<rt>てんいん</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>店員<rt>てんいん</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10492,8 +10490,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>店員<rt>てんいん</rt></ruby> → <ruby>店員<rt>てんいん</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>店員<rt>てんいん</rt></ruby> → <ruby>店員<rt>てんいん</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>店員<rt>てんいん</rt></ruby>です → <ruby>店員<rt>てんいん</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>店員<rt>てんいん</rt></ruby>です → <ruby>店員<rt>てんいん</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10515,12 +10513,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, утверждение",
+      "uz": "Ot, hozirgi/kelasi zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>大学生<rt>だいがくせい</rt></ruby> → Настоящее/Будущее · Утверждение",
-      "uz": "<ruby>大学生<rt>だいがくせい</rt></ruby> → Hozirgi/Kelasi · Tasdiq"
+      "ru": "<ruby>大学生<rt>だいがくせい</rt></ruby>です → Настоящее/Будущее · Утверждение",
+      "uz": "<ruby>大学生<rt>だいがくせい</rt></ruby>です → Hozirgi/Kelasi · Tasdiq"
     },
     "options": [
       {
@@ -10545,8 +10543,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>大学生<rt>だいがくせい</rt></ruby> → <ruby>大学生<rt>だいがくせい</rt></ruby>だ. Существительное сохраняет основу; нужную форму выражает связка だ. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>大学生<rt>だいがくせい</rt></ruby> → <ruby>大学生<rt>だいがくせい</rt></ruby>だ. Ot asosi o‘zgarmaydi; だ bog‘lamasi hozirgi/kelasi zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>大学生<rt>だいがくせい</rt></ruby>です → <ruby>大学生<rt>だいがくせい</rt></ruby>だ. После существительного замените です на だ. Само слово не меняется.",
+      "uz": "<ruby>大学生<rt>だいがくせい</rt></ruby>です → <ruby>大学生<rt>だいがくせい</rt></ruby>だ. Otdan keyingi です ni だ ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10571,8 +10569,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>高校生<rt>こうこうせい</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>高校生<rt>こうこうせい</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>高校生<rt>こうこうせい</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>高校生<rt>こうこうせい</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10597,8 +10595,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>高校生<rt>こうこうせい</rt></ruby> → <ruby>高校生<rt>こうこうせい</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>高校生<rt>こうこうせい</rt></ruby> → <ruby>高校生<rt>こうこうせい</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>高校生<rt>こうこうせい</rt></ruby>です → <ruby>高校生<rt>こうこうせい</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>高校生<rt>こうこうせい</rt></ruby>です → <ruby>高校生<rt>こうこうせい</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10623,8 +10621,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>友達<rt>ともだち</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>友達<rt>ともだち</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>友達<rt>ともだち</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>友達<rt>ともだち</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10649,8 +10647,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>友達<rt>ともだち</rt></ruby> → <ruby>友達<rt>ともだち</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>友達<rt>ともだち</rt></ruby> → <ruby>友達<rt>ともだち</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>友達<rt>ともだち</rt></ruby>です → <ruby>友達<rt>ともだち</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>友達<rt>ともだち</rt></ruby>です → <ruby>友達<rt>ともだち</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10675,8 +10673,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>家族<rt>かぞく</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>家族<rt>かぞく</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>家族<rt>かぞく</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>家族<rt>かぞく</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10701,8 +10699,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>家族<rt>かぞく</rt></ruby> → <ruby>家族<rt>かぞく</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>家族<rt>かぞく</rt></ruby> → <ruby>家族<rt>かぞく</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>家族<rt>かぞく</rt></ruby>です → <ruby>家族<rt>かぞく</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>家族<rt>かぞく</rt></ruby>です → <ruby>家族<rt>かぞく</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10727,8 +10725,8 @@ const questionSpecs = [
       "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>隣人<rt>りんじん</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>隣人<rt>りんじん</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>隣人<rt>りんじん</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>隣人<rt>りんじん</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10753,8 +10751,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>隣人<rt>りんじん</rt></ruby> → <ruby>隣人<rt>りんじん</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない.",
-      "uz": "<ruby>隣人<rt>りんじん</rt></ruby> → <ruby>隣人<rt>りんじん</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>隣人<rt>りんじん</rt></ruby>です → <ruby>隣人<rt>りんじん</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>隣人<rt>りんじん</rt></ruby>です → <ruby>隣人<rt>りんじん</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10776,12 +10774,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>客<rt>きゃく</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>客<rt>きゃく</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>客<rt>きゃく</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>客<rt>きゃく</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10806,8 +10804,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>客<rt>きゃく</rt></ruby> → <ruby>客<rt>きゃく</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>客<rt>きゃく</rt></ruby> → <ruby>客<rt>きゃく</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>客<rt>きゃく</rt></ruby>です → <ruby>客<rt>きゃく</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>客<rt>きゃく</rt></ruby>です → <ruby>客<rt>きゃく</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10829,12 +10827,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>受付<rt>うけつけ</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>受付<rt>うけつけ</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>受付<rt>うけつけ</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>受付<rt>うけつけ</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10859,8 +10857,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>受付<rt>うけつけ</rt></ruby> → <ruby>受付<rt>うけつけ</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>受付<rt>うけつけ</rt></ruby> → <ruby>受付<rt>うけつけ</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>受付<rt>うけつけ</rt></ruby>です → <ruby>受付<rt>うけつけ</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>受付<rt>うけつけ</rt></ruby>です → <ruby>受付<rt>うけつけ</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10882,12 +10880,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>図書館<rt>としょかん</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>図書館<rt>としょかん</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>図書館<rt>としょかん</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>図書館<rt>としょかん</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10912,8 +10910,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>図書館<rt>としょかん</rt></ruby> → <ruby>図書館<rt>としょかん</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>図書館<rt>としょかん</rt></ruby> → <ruby>図書館<rt>としょかん</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>図書館<rt>としょかん</rt></ruby>です → <ruby>図書館<rt>としょかん</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>図書館<rt>としょかん</rt></ruby>です → <ruby>図書館<rt>としょかん</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10935,12 +10933,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>病院<rt>びょういん</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>病院<rt>びょういん</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>病院<rt>びょういん</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>病院<rt>びょういん</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -10965,8 +10963,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>病院<rt>びょういん</rt></ruby> → <ruby>病院<rt>びょういん</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>病院<rt>びょういん</rt></ruby> → <ruby>病院<rt>びょういん</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>病院<rt>びょういん</rt></ruby>です → <ruby>病院<rt>びょういん</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>病院<rt>びょういん</rt></ruby>です → <ruby>病院<rt>びょういん</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -10988,12 +10986,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>銀行<rt>ぎんこう</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>銀行<rt>ぎんこう</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>銀行<rt>ぎんこう</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>銀行<rt>ぎんこう</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -11018,8 +11016,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>銀行<rt>ぎんこう</rt></ruby> → <ruby>銀行<rt>ぎんこう</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>銀行<rt>ぎんこう</rt></ruby> → <ruby>銀行<rt>ぎんこう</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>銀行<rt>ぎんこう</rt></ruby>です → <ruby>銀行<rt>ぎんこう</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>銀行<rt>ぎんこう</rt></ruby>です → <ruby>銀行<rt>ぎんこう</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11041,12 +11039,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -11071,8 +11069,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby> → <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby> → <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>です → <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>郵便局<rt>ゆうびんきょく</rt></ruby>です → <ruby>郵便局<rt>ゆうびんきょく</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11094,12 +11092,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, настоящее/будущее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, hozirgi/kelasi zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, настоящее/будущее, отрицание",
+      "uz": "Ot, hozirgi/kelasi zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>教室<rt>きょうしつ</rt></ruby> → Настоящее/Будущее · Отрицание",
-      "uz": "<ruby>教室<rt>きょうしつ</rt></ruby> → Hozirgi/Kelasi · Inkor"
+      "ru": "<ruby>教室<rt>きょうしつ</rt></ruby>です → Настоящее/Будущее · Отрицание",
+      "uz": "<ruby>教室<rt>きょうしつ</rt></ruby>です → Hozirgi/Kelasi · Inkor"
     },
     "options": [
       {
@@ -11124,8 +11122,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>教室<rt>きょうしつ</rt></ruby> → <ruby>教室<rt>きょうしつ</rt></ruby>じゃない. Существительное сохраняет основу; нужную форму выражает связка じゃない. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>教室<rt>きょうしつ</rt></ruby> → <ruby>教室<rt>きょうしつ</rt></ruby>じゃない. Ot asosi o‘zgarmaydi; じゃない bog‘lamasi hozirgi/kelasi zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>教室<rt>きょうしつ</rt></ruby>です → <ruby>教室<rt>きょうしつ</rt></ruby>じゃない. После существительного замените です на じゃない. Само слово не меняется.",
+      "uz": "<ruby>教室<rt>きょうしつ</rt></ruby>です → <ruby>教室<rt>きょうしつ</rt></ruby>じゃない. Otdan keyingi です ni じゃない ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11142,7 +11140,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "この<ruby>部屋<rt>へや</rt></ruby>は____。"
+        "text": "そのとき、この<ruby>部屋<rt>へや</rt></ruby>は____。"
       }
     ],
     "context": {
@@ -11150,8 +11148,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>事務所<rt>じむしょ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>事務所<rt>じむしょ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>事務所<rt>じむしょ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>事務所<rt>じむしょ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11176,8 +11174,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>事務所<rt>じむしょ</rt></ruby> → <ruby>事務所<rt>じむしょ</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>事務所<rt>じむしょ</rt></ruby> → <ruby>事務所<rt>じむしょ</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>事務所<rt>じむしょ</rt></ruby>です → <ruby>事務所<rt>じむしょ</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>事務所<rt>じむしょ</rt></ruby>です → <ruby>事務所<rt>じむしょ</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11194,7 +11192,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "ここは____。"
+        "text": "そのとき、ここは____。"
       }
     ],
     "context": {
@@ -11202,8 +11200,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>食堂<rt>しょくどう</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>食堂<rt>しょくどう</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>食堂<rt>しょくどう</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>食堂<rt>しょくどう</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11228,8 +11226,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>食堂<rt>しょくどう</rt></ruby> → <ruby>食堂<rt>しょくどう</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>食堂<rt>しょくどう</rt></ruby> → <ruby>食堂<rt>しょくどう</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>食堂<rt>しょくどう</rt></ruby>です → <ruby>食堂<rt>しょくどう</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>食堂<rt>しょくどう</rt></ruby>です → <ruby>食堂<rt>しょくどう</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11246,7 +11244,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "ここは____。"
+        "text": "そのとき、ここは____。"
       }
     ],
     "context": {
@@ -11254,8 +11252,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>入口<rt>いりぐち</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>入口<rt>いりぐち</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>入口<rt>いりぐち</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>入口<rt>いりぐち</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11280,8 +11278,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>入口<rt>いりぐち</rt></ruby> → <ruby>入口<rt>いりぐち</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>入口<rt>いりぐち</rt></ruby> → <ruby>入口<rt>いりぐち</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>入口<rt>いりぐち</rt></ruby>です → <ruby>入口<rt>いりぐち</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>入口<rt>いりぐち</rt></ruby>です → <ruby>入口<rt>いりぐち</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11298,7 +11296,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "ここは____。"
+        "text": "そのとき、ここは____。"
       }
     ],
     "context": {
@@ -11306,8 +11304,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>出口<rt>でぐち</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>出口<rt>でぐち</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>出口<rt>でぐち</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>出口<rt>でぐち</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11332,8 +11330,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>出口<rt>でぐち</rt></ruby> → <ruby>出口<rt>でぐち</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった.",
-      "uz": "<ruby>出口<rt>でぐち</rt></ruby> → <ruby>出口<rt>でぐち</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi."
+      "ru": "<ruby>出口<rt>でぐち</rt></ruby>です → <ruby>出口<rt>でぐち</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>出口<rt>でぐち</rt></ruby>です → <ruby>出口<rt>でぐち</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11355,12 +11353,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>春<rt>はる</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>春<rt>はる</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>春<rt>はる</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>春<rt>はる</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11385,8 +11383,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>春<rt>はる</rt></ruby> → <ruby>春<rt>はる</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>春<rt>はる</rt></ruby> → <ruby>春<rt>はる</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>春<rt>はる</rt></ruby>です → <ruby>春<rt>はる</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>春<rt>はる</rt></ruby>です → <ruby>春<rt>はる</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11408,12 +11406,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>夏<rt>なつ</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>夏<rt>なつ</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>夏<rt>なつ</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>夏<rt>なつ</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11438,8 +11436,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>夏<rt>なつ</rt></ruby> → <ruby>夏<rt>なつ</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>夏<rt>なつ</rt></ruby> → <ruby>夏<rt>なつ</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>夏<rt>なつ</rt></ruby>です → <ruby>夏<rt>なつ</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>夏<rt>なつ</rt></ruby>です → <ruby>夏<rt>なつ</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11461,12 +11459,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>秋<rt>あき</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>秋<rt>あき</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>秋<rt>あき</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>秋<rt>あき</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11491,8 +11489,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>秋<rt>あき</rt></ruby> → <ruby>秋<rt>あき</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>秋<rt>あき</rt></ruby> → <ruby>秋<rt>あき</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>秋<rt>あき</rt></ruby>です → <ruby>秋<rt>あき</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>秋<rt>あき</rt></ruby>です → <ruby>秋<rt>あき</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11514,12 +11512,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>雪<rt>ゆき</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>雪<rt>ゆき</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>雪<rt>ゆき</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>雪<rt>ゆき</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11544,8 +11542,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>雪<rt>ゆき</rt></ruby> → <ruby>雪<rt>ゆき</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>雪<rt>ゆき</rt></ruby> → <ruby>雪<rt>ゆき</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>雪<rt>ゆき</rt></ruby>です → <ruby>雪<rt>ゆき</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>雪<rt>ゆき</rt></ruby>です → <ruby>雪<rt>ゆき</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11567,12 +11565,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>曇<rt>くも</rt></ruby>り → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>曇<rt>くも</rt></ruby>り → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>曇<rt>くも</rt></ruby>りです → Прошедшее · Утверждение",
+      "uz": "<ruby>曇<rt>くも</rt></ruby>りです → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11597,8 +11595,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>曇<rt>くも</rt></ruby>り → <ruby>曇<rt>くも</rt></ruby>りだった. Существительное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>曇<rt>くも</rt></ruby>り → <ruby>曇<rt>くも</rt></ruby>りだった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>曇<rt>くも</rt></ruby>りです → <ruby>曇<rt>くも</rt></ruby>りだった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>曇<rt>くも</rt></ruby>りです → <ruby>曇<rt>くも</rt></ruby>りだった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11620,12 +11618,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, утверждение (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, tasdiq (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, утверждение",
+      "uz": "Ot, o‘tgan zamon, tasdiq"
     },
     "prompt": {
-      "ru": "<ruby>月曜日<rt>げつようび</rt></ruby> → Прошедшая Утвердительная Форма",
-      "uz": "<ruby>月曜日<rt>げつようび</rt></ruby> → O‘tgan Zamon Tasdiq Shakli"
+      "ru": "<ruby>月曜日<rt>げつようび</rt></ruby>です → Прошедшее · Утверждение",
+      "uz": "<ruby>月曜日<rt>げつようび</rt></ruby>です → O‘tgan Zamon · Tasdiq"
     },
     "options": [
       {
@@ -11650,8 +11648,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>月曜日<rt>げつようび</rt></ruby> → <ruby>月曜日<rt>げつようび</rt></ruby>だった. Существительное сохраняет основу; нужную форму выражает связка だった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>月曜日<rt>げつようび</rt></ruby> → <ruby>月曜日<rt>げつようび</rt></ruby>だった. Ot asosi o‘zgarmaydi; だった bog‘lamasi o‘tgan zamon, tasdiq shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>月曜日<rt>げつようび</rt></ruby>です → <ruby>月曜日<rt>げつようび</rt></ruby>だった. После существительного замените です на だった. Само слово не меняется.",
+      "uz": "<ruby>月曜日<rt>げつようび</rt></ruby>です → <ruby>月曜日<rt>げつようび</rt></ruby>だった. Otdan keyingi です ni だった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11668,7 +11666,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は____。"
+        "text": "そのとき、<ruby>休<rt>やす</rt></ruby>みの<ruby>日<rt>ひ</rt></ruby>は____。"
       }
     ],
     "context": {
@@ -11676,8 +11674,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>火曜日<rt>かようび</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>火曜日<rt>かようび</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>火曜日<rt>かようび</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>火曜日<rt>かようび</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -11702,8 +11700,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>火曜日<rt>かようび</rt></ruby> → <ruby>火曜日<rt>かようび</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>火曜日<rt>かようび</rt></ruby> → <ruby>火曜日<rt>かようび</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>火曜日<rt>かようび</rt></ruby>です → <ruby>火曜日<rt>かようび</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>火曜日<rt>かようび</rt></ruby>です → <ruby>火曜日<rt>かようび</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11720,7 +11718,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は____。"
+        "text": "そのとき、<ruby>会議<rt>かいぎ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は____。"
       }
     ],
     "context": {
@@ -11728,8 +11726,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>水曜日<rt>すいようび</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>水曜日<rt>すいようび</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>水曜日<rt>すいようび</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>水曜日<rt>すいようび</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -11754,8 +11752,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>水曜日<rt>すいようび</rt></ruby> → <ruby>水曜日<rt>すいようび</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>水曜日<rt>すいようび</rt></ruby> → <ruby>水曜日<rt>すいようび</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>水曜日<rt>すいようび</rt></ruby>です → <ruby>水曜日<rt>すいようび</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>水曜日<rt>すいようび</rt></ruby>です → <ruby>水曜日<rt>すいようび</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11772,7 +11770,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は____。"
+        "text": "そのとき、<ruby>出発<rt>しゅっぱつ</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は____。"
       }
     ],
     "context": {
@@ -11780,8 +11778,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>木曜日<rt>もくようび</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>木曜日<rt>もくようび</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>木曜日<rt>もくようび</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>木曜日<rt>もくようび</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -11806,8 +11804,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>木曜日<rt>もくようび</rt></ruby> → <ruby>木曜日<rt>もくようび</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>木曜日<rt>もくようび</rt></ruby> → <ruby>木曜日<rt>もくようび</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>木曜日<rt>もくようび</rt></ruby>です → <ruby>木曜日<rt>もくようび</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>木曜日<rt>もくようび</rt></ruby>です → <ruby>木曜日<rt>もくようび</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11824,7 +11822,7 @@ const questionSpecs = [
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>授業<rt>じゅぎょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は____。"
+        "text": "そのとき、<ruby>授業<rt>じゅぎょう</rt></ruby>の<ruby>日<rt>ひ</rt></ruby>は____。"
       }
     ],
     "context": {
@@ -11832,8 +11830,8 @@ const questionSpecs = [
       "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>土曜日<rt>どようび</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>土曜日<rt>どようび</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>土曜日<rt>どようび</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>土曜日<rt>どようび</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -11858,8 +11856,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>土曜日<rt>どようび</rt></ruby> → <ruby>土曜日<rt>どようび</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった.",
-      "uz": "<ruby>土曜日<rt>どようび</rt></ruby> → <ruby>土曜日<rt>どようび</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi."
+      "ru": "<ruby>土曜日<rt>どようび</rt></ruby>です → <ruby>土曜日<rt>どようび</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>土曜日<rt>どようび</rt></ruby>です → <ruby>土曜日<rt>どようび</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11881,12 +11879,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>日曜日<rt>にちようび</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>日曜日<rt>にちようび</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>日曜日<rt>にちようび</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>日曜日<rt>にちようび</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -11911,8 +11909,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>日曜日<rt>にちようび</rt></ruby> → <ruby>日曜日<rt>にちようび</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>日曜日<rt>にちようび</rt></ruby> → <ruby>日曜日<rt>にちようび</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>日曜日<rt>にちようび</rt></ruby>です → <ruby>日曜日<rt>にちようび</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>日曜日<rt>にちようび</rt></ruby>です → <ruby>日曜日<rt>にちようび</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11934,12 +11932,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>祝日<rt>しゅくじつ</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>祝日<rt>しゅくじつ</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>祝日<rt>しゅくじつ</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>祝日<rt>しゅくじつ</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -11964,8 +11962,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>祝日<rt>しゅくじつ</rt></ruby> → <ruby>祝日<rt>しゅくじつ</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>祝日<rt>しゅくじつ</rt></ruby> → <ruby>祝日<rt>しゅくじつ</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>祝日<rt>しゅくじつ</rt></ruby>です → <ruby>祝日<rt>しゅくじつ</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>祝日<rt>しゅくじつ</rt></ruby>です → <ruby>祝日<rt>しゅくじつ</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -11987,12 +11985,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>試験<rt>しけん</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>試験<rt>しけん</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>試験<rt>しけん</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>試験<rt>しけん</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -12017,8 +12015,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>試験<rt>しけん</rt></ruby> → <ruby>試験<rt>しけん</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>試験<rt>しけん</rt></ruby> → <ruby>試験<rt>しけん</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>試験<rt>しけん</rt></ruby>です → <ruby>試験<rt>しけん</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>試験<rt>しけん</rt></ruby>です → <ruby>試験<rt>しけん</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -12040,12 +12038,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (косвенная речь с と <ruby>聞<rt>き</rt></ruby>いた)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>聞<rt>き</rt></ruby>いた bilan o‘zlashtirma gap)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>授業<rt>じゅぎょう</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>授業<rt>じゅぎょう</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>授業<rt>じゅぎょう</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>授業<rt>じゅぎょう</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -12070,8 +12068,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>授業<rt>じゅぎょう</rt></ruby> → <ruby>授業<rt>じゅぎょう</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>授業<rt>じゅぎょう</rt></ruby> → <ruby>授業<rt>じゅぎょう</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>授業<rt>じゅぎょう</rt></ruby>です → <ruby>授業<rt>じゅぎょう</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>授業<rt>じゅぎょう</rt></ruby>です → <ruby>授業<rt>じゅぎょう</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -12093,12 +12091,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>旅行<rt>りょこう</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>旅行<rt>りょこう</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>旅行<rt>りょこう</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>旅行<rt>りょこう</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -12123,8 +12121,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>旅行<rt>りょこう</rt></ruby> → <ruby>旅行<rt>りょこう</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>旅行<rt>りょこう</rt></ruby> → <ruby>旅行<rt>りょこう</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>旅行<rt>りょこう</rt></ruby>です → <ruby>旅行<rt>りょこう</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>旅行<rt>りょこう</rt></ruby>です → <ruby>旅行<rt>りょこう</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -12136,22 +12134,21 @@ const questionSpecs = [
     "polarity": "negative",
     "tags": [
       "past",
-      "negative",
-      "quotation"
+      "negative"
     ],
     "dialogue": [
       {
         "speaker": "",
-        "text": "<ruby>大阪<rt>おおさか</rt></ruby>へ<ruby>行<rt>い</rt></ruby>く<ruby>理由<rt>りゆう</rt></ruby>は____と<ruby>思<rt>おも</rt></ruby>う。"
+        "text": "<ruby>先週<rt>せんしゅう</rt></ruby>の<ruby>旅行<rt>りょこう</rt></ruby>は____。"
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>出張<rt>しゅっちょう</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>出張<rt>しゅっちょう</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>出張<rt>しゅっちょう</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>出張<rt>しゅっちょう</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -12176,8 +12173,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>出張<rt>しゅっちょう</rt></ruby> → <ruby>出張<rt>しゅっちょう</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>出張<rt>しゅっちょう</rt></ruby> → <ruby>出張<rt>しゅっちょう</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>出張<rt>しゅっちょう</rt></ruby>です → <ruby>出張<rt>しゅっちょう</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>出張<rt>しゅっちょう</rt></ruby>です → <ruby>出張<rt>しゅっちょう</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   },
   {
@@ -12199,12 +12196,12 @@ const questionSpecs = [
       }
     ],
     "context": {
-      "ru": "Существительное, прошедшее, отрицание (конструкция с と <ruby>思<rt>おも</rt></ruby>う)",
-      "uz": "Ot, o‘tgan zamon, inkor (と <ruby>思<rt>おも</rt></ruby>う birikmasi)"
+      "ru": "Существительное, прошедшее, отрицание",
+      "uz": "Ot, o‘tgan zamon, inkor"
     },
     "prompt": {
-      "ru": "<ruby>研修<rt>けんしゅう</rt></ruby> → Прошедшая Отрицательная Форма",
-      "uz": "<ruby>研修<rt>けんしゅう</rt></ruby> → O‘tgan Zamon Inkor Shakli"
+      "ru": "<ruby>研修<rt>けんしゅう</rt></ruby>です → Прошедшее · Отрицание",
+      "uz": "<ruby>研修<rt>けんしゅう</rt></ruby>です → O‘tgan Zamon · Inkor"
     },
     "options": [
       {
@@ -12229,8 +12226,8 @@ const questionSpecs = [
       }
     ],
     "explanation": {
-      "ru": "<ruby>研修<rt>けんしゅう</rt></ruby> → <ruby>研修<rt>けんしゅう</rt></ruby>じゃなかった. Существительное сохраняет основу; нужную форму выражает связка じゃなかった. Перед と сохраняется указанная простая форма.",
-      "uz": "<ruby>研修<rt>けんしゅう</rt></ruby> → <ruby>研修<rt>けんしゅう</rt></ruby>じゃなかった. Ot asosi o‘zgarmaydi; じゃなかった bog‘lamasi o‘tgan zamon, inkor shaklini bildiradi. と dan oldin shu oddiy shakl saqlanadi."
+      "ru": "<ruby>研修<rt>けんしゅう</rt></ruby>です → <ruby>研修<rt>けんしゅう</rt></ruby>じゃなかった. После существительного замените です на じゃなかった. Само слово не меняется.",
+      "uz": "<ruby>研修<rt>けんしゅう</rt></ruby>です → <ruby>研修<rt>けんしゅう</rt></ruby>じゃなかった. Otdan keyingi です ni じゃなかった ga almashtiring. So‘zning o‘zi o‘zgarmaydi."
     }
   }
 ];
